@@ -15,17 +15,14 @@ class Solution:
             count_s2[cur] += 1
             if count_s2[cur] == count_s1[cur]:
                 meet += 1
-            if count_s2[cur] - 1 == count_s1[cur]:
-                meet -= 1 
                 
             # check left pointer
-            if r - l + 1 > len(count_s1):
+            if r - l + 1 > len(s1):
                 drop = s2[l]
                 if count_s2[drop] == count_s1[drop]:
                     meet -= 1
                 count_s2[drop] -= 1
-                if count_s2[drop] == count_s1[drop]:
-                    meet +=1
+
                 l += 1
                 
             # check permutation
