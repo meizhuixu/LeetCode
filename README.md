@@ -33,6 +33,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/leetcode/tree/master/0239-sliding-window-maximum) |
 ## Greedy
 |  |
@@ -54,9 +55,14 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/meizhuixu/leetcode/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/meizhuixu/leetcode/tree/master/0155-min-stack) |
 ## Design
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/meizhuixu/leetcode/tree/master/0155-min-stack) |
+## Math
+|  |
+| ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 <!---LeetCode Topics End-->
