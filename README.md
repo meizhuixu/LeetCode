@@ -35,6 +35,7 @@
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 ## Greedy
 |  |
 | ------- |
@@ -57,6 +58,7 @@
 | [0020-valid-parentheses](https://github.com/meizhuixu/leetcode/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/meizhuixu/leetcode/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
 | ------- |
@@ -65,4 +67,8 @@
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
