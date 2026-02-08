@@ -1,14 +1,13 @@
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
-        hashmap = {}
-        for i, pos in enumerate(position):
-            hashmap[pos] = i
+        pair = [(p, s) for p, s in zip(position, speed)]
 
-        count = block = 0
-        for pos in sorted(hashmap, reverse=True):
-            time = (target - pos) / speed[hashmap[pos]]
-            if time > block:
-                count += 1
-                block = time
+        stack = []
+        for p, s in sorted(pair, reverse=True):
+            time = (target - p) / s
+            if not stack or time > stack[-1]:
+                stack.append(time)
 
-        return count
+        return len(stack)
+
+        
