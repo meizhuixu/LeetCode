@@ -6,6 +6,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/meizhuixu/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/meizhuixu/leetcode/tree/master/0076-minimum-window-substring) |
+| [0146-lru-cache](https://github.com/meizhuixu/leetcode/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/meizhuixu/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
@@ -75,6 +76,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/meizhuixu/leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/meizhuixu/leetcode/tree/master/0155-min-stack) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Math
@@ -110,6 +112,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/meizhuixu/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/meizhuixu/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0146-lru-cache](https://github.com/meizhuixu/leetcode/tree/master/0146-lru-cache) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -123,4 +126,8 @@
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/meizhuixu/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/meizhuixu/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
