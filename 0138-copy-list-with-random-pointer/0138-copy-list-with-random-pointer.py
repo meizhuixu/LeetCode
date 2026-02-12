@@ -9,8 +9,6 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        if not head:
-            return None
         # copy and insert after the original node
         cur = head
         while cur:
@@ -28,11 +26,11 @@ class Solution:
             cur = cur.next.next
 
         # split into two linked lists
-        new_head = head.next
-        p1, p2 = head, head.next
-        while p2 and p2.next:
+        dummy = Node(0)
+        p1, p2 = dummy, head
+        while p2:
             p1.next = p2.next
-            p2.next = p2.next.next
-            p1, p2 = p1.next, p2.next
-        return new_head
+            p1, p2 = p1.next, p1.next.next
+            
+        return dummy.next
         
