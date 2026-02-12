@@ -10,8 +10,7 @@ class Solution:
         if not head:
             return False
 
-        dummy = ListNode(0, head)
-        slow, fast = dummy, head
+        slow = fast = head
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
