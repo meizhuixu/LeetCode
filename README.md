@@ -116,6 +116,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/meizhuixu/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/meizhuixu/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0146-lru-cache](https://github.com/meizhuixu/leetcode/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/meizhuixu/leetcode/tree/master/0206-reverse-linked-list) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -129,6 +130,7 @@
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/meizhuixu/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0206-reverse-linked-list](https://github.com/meizhuixu/leetcode/tree/master/0206-reverse-linked-list) |
 ## Doubly-Linked List
 |  |
 | ------- |
