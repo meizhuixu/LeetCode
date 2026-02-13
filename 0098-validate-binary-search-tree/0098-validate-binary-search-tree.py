@@ -10,14 +10,14 @@ class Solution:
             if not node:
                 return True
 
-            if not dfs(node.left):
-                return False
-                
+            left = dfs(node.left)
+
             if node.val <= self.max_val:
                 return False
-            else:
-                self.max_val = node.val
-                return dfs(node.right)
+            self.max_val = node.val
+
+            right = dfs(node.right)
+            return left and right
 
         self.max_val = float('-inf')
         return dfs(root)
