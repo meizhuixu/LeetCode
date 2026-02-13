@@ -12,11 +12,11 @@ class Solution:
         queue = deque([root])
         res = []
         while queue:
+            res.append(queue[0].val)
             length = len(queue)
-            for i in range(length):
+
+            for _ in range(length):
                 cur = queue.popleft()
-                if i == 0:
-                    res.append(cur.val)
                 
                 if cur.right:
                     queue.append(cur.right)
