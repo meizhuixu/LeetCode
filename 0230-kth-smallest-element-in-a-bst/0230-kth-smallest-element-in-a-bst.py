@@ -4,22 +4,27 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        # inorder traversal
+        self.count = 0
+        self.res = -1
+        
         def dfs(node):
-            if not node:
+            #base case
+            if not node or self.res >= 0:
                 return
-
+                
             dfs(node.left)
-
-            self.count -= 1
-            if self.count == 0:
+            
+            self.count += 1
+            if self.count == k:
                 self.res = node.val
                 return
-
+                
             dfs(node.right)
-
-        self.count = k
-        self.res = 0
+            
         dfs(root)
         return self.res
+        
