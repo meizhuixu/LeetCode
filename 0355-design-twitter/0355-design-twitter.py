@@ -12,9 +12,8 @@ class Twitter:
         
 
     def getNewsFeed(self, userId: int) -> List[int]:
+        users = list(self.following[userId]) + [userId]
         pq = []
-        users = self.following[userId]
-        users.add(userId)
         for user in users:
             for time, tweet in self.tweets[user][-10:]:
                 heapq.heappush(pq, (time, tweet))
