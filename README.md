@@ -57,6 +57,7 @@
 | [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/meizhuixu/leetcode/tree/master/0875-koko-eating-bananas) |
+| [1046-last-stone-weight](https://github.com/meizhuixu/leetcode/tree/master/1046-last-stone-weight) |
 ## Greedy
 |  |
 | ------- |
@@ -71,6 +72,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/meizhuixu/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/meizhuixu/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [1046-last-stone-weight](https://github.com/meizhuixu/leetcode/tree/master/1046-last-stone-weight) |
 ## Monotonic Queue
 |  |
 | ------- |
