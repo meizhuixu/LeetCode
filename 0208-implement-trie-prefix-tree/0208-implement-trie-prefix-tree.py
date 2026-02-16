@@ -1,7 +1,7 @@
 class TrieNode:
 
     def __init__(self):
-        self.children = {}
+        self.children = defaultdict(TrieNode)
         self.is_end = False
 
 class Trie:
@@ -13,8 +13,6 @@ class Trie:
     def insert(self, word: str) -> None:
         node = self.root
         for chr in word:
-            if chr not in node.children:
-                node.children[chr] = TrieNode()
             node = node.children[chr]
 
         node.is_end = True
