@@ -1,9 +1,9 @@
 class Twitter:
 
     def __init__(self):
-        self.tweets = defaultdict(list)
-        self.following = defaultdict(set)
-        self.time = 0
+        self.following = defaultdict(set) # {followerId: {followeeId, ..}}
+        self.tweets = defaultdict(list) # {userId: [(time, tweetId), ..]}
+        self.time = 0 # tweet  time += 1
         
 
     def postTweet(self, userId: int, tweetId: int) -> None:
@@ -12,20 +12,22 @@ class Twitter:
         
 
     def getNewsFeed(self, userId: int) -> List[int]:
-        users = list(self.following[userId]) + [userId]
+        # add foloweeId + userId into one list
+        users = [user for user in self.following[userId]] + [userId]
+        
         pq = []
         for user in users:
             for time, tweet in self.tweets[user][-10:]:
                 heapq.heappush(pq, (time, tweet))
                 if len(pq) > 10:
                     heapq.heappop(pq)
-
+                    
         res = []
         while pq:
             _, tweet = heapq.heappop(pq)
             res.append(tweet)
         return res[::-1]
-        
+                 
 
     def follow(self, followerId: int, followeeId: int) -> None:
         if followerId != followeeId:
