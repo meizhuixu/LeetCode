@@ -22,6 +22,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/meizhuixu/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/meizhuixu/leetcode/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/meizhuixu/leetcode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/meizhuixu/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/meizhuixu/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
@@ -54,6 +55,7 @@
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/meizhuixu/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/meizhuixu/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/meizhuixu/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/meizhuixu/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -151,6 +153,7 @@
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/meizhuixu/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
 ## Linked List
 |  |
@@ -217,6 +220,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/meizhuixu/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/meizhuixu/leetcode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -309,5 +313,6 @@
 ## Backtracking
 |  |
 | ------- |
+| [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
 <!---LeetCode Topics End-->
