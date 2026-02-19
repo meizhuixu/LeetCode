@@ -1,6 +1,10 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         m, n = len(board), len(board[0])
+        # Pruning
+        if len(word) > m * n:
+            return False
+
         directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
         
         def dfs(x, y, idx):
