@@ -1,54 +1,54 @@
 class TrieNode:
     def __init__(self):
-        self.children = {}
-        self.word = None
-
+        self.children = {}  # Map: {char: TrieNode}
+        self.word = None    # Stores the full string when a word is completed
 
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
-        # construct Trie
+        # Construct Trie: Pre-process vocabulary for efficient prefix lookups
         root = TrieNode()
         for word in words:
             node = root
-            for chr in word:
-                if chr not in node.children:
-                    node.children[chr] = TrieNode()
-                node = node.children[chr]
+            for char in word:
+                if char not in node.children:
+                    node.children[char] = TrieNode()
+                node = node.children[char]
             node.word = word
-
+            
         m, n = len(board), len(board[0])
-        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
         res = []
 
-        # dfs & backtracking
+        # DFS with Backtracking
         def backtracking(x, y, node):
-            # base case, no return here
+            # Check for word completion at the beginning of the DFS call
             if node.word:
                 res.append(node.word)
-                node.word = None
-            
-            # check border
+                node.word = None # Avoid duplicate entries in the result list
+
+            # Boundary Check: Ensure coordinates are within board limits
             if x < 0 or x >= m or y < 0 or y >= n:
                 return
-            # check there is a route or not visited
-            chr = board[x][y]
-            if chr not in node.children or chr == '#':
+            
+            # Pruning & Visit Check: Stop if the character isn't in Trie or cell is visited
+            char = board[x][y]
+            if char not in node.children or char == '#':
                 return
-
-            # backtracking
+            
+            # Mark cell as visited to prevent re-use in the current path
             board[x][y] = '#'
-            for dx, dy in directions:
-                backtracking(x+dx, y+dy, node.children[chr])
-            board[x][y] = chr
+            
+            # Explore all 4 adjacent directions
+            for dx, dy in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
+                backtracking(x + dx, y + dy, node.children[char])
+                
+            # Backtrack: Restore the cell's original character for other paths
+            board[x][y] = char
 
-
+        # Initiate search from every cell on the board
         for i in range(m):
             for j in range(n):
-                backtracking(i, j, root)
+                # Start DFS only if the first character matches a Trie root child
+                if board[i][j] in root.children:
+                    backtracking(i, j, root)
 
         return res
-
-            
-
-            
-        
