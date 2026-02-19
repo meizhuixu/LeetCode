@@ -22,19 +22,23 @@ class Solution:
 
         # dfs & backtracking
         def backtracking(x, y, node):
-            chr = board[x][y]
-            if chr not in node.children:
+            # base case, no return here
+            if node.word:
+                res.append(node.word)
+                node.word = None
+            
+            # check border
+            if x < 0 or x >= m or y < 0 or y >= n:
                 return
-            next_node = node.children[chr]
-            if next_node.word:
-                res.append(next_node.word)
-                next_node.word = None
+            # check there is a route or not visited
+            chr = board[x][y]
+            if chr not in node.children or chr == '#':
+                return
 
+            # backtracking
             board[x][y] = '#'
             for dx, dy in directions:
-                nx, ny = x + dx, y + dy
-                if 0 <= nx < m and 0 <= ny < n and board[nx][ny] != '#':
-                    backtracking(nx, ny, next_node)
+                backtracking(x+dx, y+dy, node.children[chr])
             board[x][y] = chr
 
 
