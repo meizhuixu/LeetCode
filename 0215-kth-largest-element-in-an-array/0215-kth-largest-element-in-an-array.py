@@ -1,12 +1,19 @@
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        pq = []
+        pivot = random.choice(nums)
+        left, mid, right = [], [], []
 
         for num in nums:
-            heapq.heappush(pq, num)
-
-            if len(pq) > k:
-                heapq.heappop(pq)
-
-        return pq[0]
+            if num < pivot:
+                right.append(num)
+            elif num > pivot:
+                left.append(num)
+            else:
+                mid.append(num)
         
+        if k <= len(left):
+            return self.findKthLargest(left, k)
+        if k > len(left) + len(mid):
+            return self.findKthLargest(right, k - len(left) - len(mid))
+
+        return pivot
