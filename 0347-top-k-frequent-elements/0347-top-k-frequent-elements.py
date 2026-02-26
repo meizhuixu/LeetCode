@@ -1,20 +1,31 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         hashmap = Counter(nums)
+        unique = [num for num in hashmap.keys()]
 
-        n = len(nums)
-        bucket = [[] for i in range(n + 1)]
-        for num, freq in hashmap.items():
-            bucket[freq].append(num)
+        def partition(l, r):
+            pivot_idx = random.randint(l, r)
+            pivot_freq = hashmap[unique[pivot_idx]]
+            unique[pivot_idx], unique[r] = unique[r], unique[pivot_idx]
 
-        res = []
-        count = 0
-        for freq in range(n, 0, -1):
-            for f in bucket[freq]:
-                res.append(f)
-                count += 1
-                if count == k:
-                    return res
+            store = l
+            for i in range(l, r):
+                if hashmap[unique[i]] < pivot_freq:
+                    unique[i], unique[store] = unique[store], unique[i]
+                    store += 1
+                
+            unique[store], unique[r] = unique[r], unique[store]
+            return store
 
+        n = len(unique)
+        l, r = 0, n - 1
 
-        
+        while l <= r:
+            p = partition(l, r)
+            if p == n - k:
+                return unique[p:]
+            elif p < n - k:
+                l = p + 1
+            else:
+                r = p - 1
+
