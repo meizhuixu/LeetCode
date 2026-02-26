@@ -79,6 +79,7 @@
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/meizhuixu/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/meizhuixu/leetcode/tree/master/1046-last-stone-weight) |
 ## Greedy
 |  |
@@ -166,6 +167,7 @@
 | [0074-search-a-2d-matrix](https://github.com/meizhuixu/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
+| [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
 ## Linked List
 |  |
 | ------- |
@@ -292,6 +294,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
+| [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Dynamic Programming
 |  |
