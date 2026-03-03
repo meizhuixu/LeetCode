@@ -49,6 +49,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/meizhuixu/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/meizhuixu/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/meizhuixu/leetcode/tree/master/0016-3sum-closest) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/meizhuixu/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/meizhuixu/leetcode/tree/master/0141-linked-list-cycle) |
@@ -61,6 +62,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/meizhuixu/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/meizhuixu/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/meizhuixu/leetcode/tree/master/0016-3sum-closest) |
 | [0033-search-in-rotated-sorted-array](https://github.com/meizhuixu/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/meizhuixu/leetcode/tree/master/0051-n-queens) |
@@ -146,6 +148,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/meizhuixu/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/meizhuixu/leetcode/tree/master/0016-3sum-closest) |
 | [0215-kth-largest-element-in-an-array](https://github.com/meizhuixu/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
