@@ -70,6 +70,7 @@
 | [0039-combination-sum](https://github.com/meizhuixu/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/meizhuixu/leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/meizhuixu/leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/meizhuixu/leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/meizhuixu/leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/meizhuixu/leetcode/tree/master/0051-n-queens) |
 | [0074-search-a-2d-matrix](https://github.com/meizhuixu/leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -158,6 +159,7 @@
 | ------- |
 | [0015-3sum](https://github.com/meizhuixu/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/meizhuixu/leetcode/tree/master/0016-3sum-closest) |
+| [0047-permutations-ii](https://github.com/meizhuixu/leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/meizhuixu/leetcode/tree/master/0049-group-anagrams) |
 | [0215-kth-largest-element-in-an-array](https://github.com/meizhuixu/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
@@ -359,6 +361,7 @@
 | [0039-combination-sum](https://github.com/meizhuixu/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/meizhuixu/leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/meizhuixu/leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/meizhuixu/leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/meizhuixu/leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/meizhuixu/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
