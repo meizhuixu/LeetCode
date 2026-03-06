@@ -1,24 +1,22 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        # initialize an empty stack to store the indices of the bars
-        stack = []
-        # and a variable res to accumulate the total amount of water trapped
+        max_left = max_right = 0
+        l, r = 0, len(height) - 1
+        max_left, max_right
         res = 0
 
-        # iterate through the array
-        for i in range(len(height)):
-            # if the current bar is taller than the stack top, we've found a right boundary
-            while stack and height[i] > height[stack[-1]]:
-                # the bottom of the valley
-                cur = stack.pop()
-                # If the stack is not empty, the new stack top is our left boundary
-                if stack:
-                    # calculate the trapped water for this horizontal layer.
-                    # the bounded height is the distance between the shorter of the two boundaries and the floor/the height is determined by the shorter of the two boundaries minus our floor
-                    # the width is the distance between the boundaries
-                    res += (min(height[stack[-1]], height[i]) - height[cur]) * (i - stack[-1] - 1)
-            # maintain a strictly decreasing stack
-            stack.append(i)
+        while l <= r:
+            if max_left < max_right:
+                max_left = max(max_left, height[l])
+                res += max_left - height[l]
+                l += 1
+            else:
+                max_right = max(max_right, height[r])
+                res += max_right - height[r]
+                r -= 1
 
         return res
+
+
+
         
