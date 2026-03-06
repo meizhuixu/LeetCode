@@ -54,6 +54,7 @@
 | [0015-3sum](https://github.com/meizhuixu/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/meizhuixu/leetcode/tree/master/0016-3sum-closest) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/meizhuixu/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/meizhuixu/leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/meizhuixu/leetcode/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/meizhuixu/leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -69,6 +70,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/meizhuixu/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/meizhuixu/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/meizhuixu/leetcode/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/meizhuixu/leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/meizhuixu/leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/meizhuixu/leetcode/tree/master/0049-group-anagrams) |
@@ -124,6 +126,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/meizhuixu/leetcode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/meizhuixu/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0143-reorder-list](https://github.com/meizhuixu/leetcode/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -151,6 +154,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/meizhuixu/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
@@ -319,6 +323,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/meizhuixu/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/meizhuixu/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 ## String Matching
 |  |
