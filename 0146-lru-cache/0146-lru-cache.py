@@ -1,4 +1,5 @@
 class ListNode:
+
     def __init__(self, key=0, val=0, prev=None, next=None):
         self.key = key
         self.val = val
@@ -8,8 +9,8 @@ class ListNode:
 class LRUCache:
 
     def __init__(self, capacity: int):
-        self.capacity = capacity
-        self.hashmap = {} # {key: ListNode}
+        self.cap = capacity
+        self.hashmap = defaultdict(ListNode)
         self.head = ListNode()
         self.tail = ListNode()
         self.head.next = self.tail
@@ -17,13 +18,12 @@ class LRUCache:
         
 
     def get(self, key: int) -> int:
-        
         if key not in self.hashmap:
             return -1
-            
+
         node = self.hashmap[key]
-        self.remove(node)
-        self.add(node)
+        self.remove_node(node)
+        self.add_node(node)
         return node.val
         
 
@@ -31,30 +31,33 @@ class LRUCache:
         if key in self.hashmap:
             node = self.hashmap[key]
             node.val = value
-            self.remove(node)
-            self.add(node)
-            
+            self.remove_node(node)
+            self.add_node(node)
+
         else:
-            new = ListNode(key=key, val=value)
+            new = ListNode(key, value)
             self.hashmap[key] = new
-            self.add(new)
-            
-            if len(self.hashmap) > self.capacity:
-                drop = self.head.next
-                self.remove(drop) 
-                del self.hashmap[drop.key]
-        
-    def remove(self, node):
-        node.prev.next = node.next
-        node.next.prev = node.prev
-        
-    def add(self, node):
-        temp = self.tail.prev
-        temp.next = node
+            self.add_node(new)
+
+            if len(self.hashmap) > self.cap:
+                remove = self.head.next
+                self.remove_node(remove)
+                del self.hashmap[remove.key]
+
+
+
+    def add_node(self, node):
+        self.tail.prev.next = node
+        node.prev = self.tail.prev
         node.next = self.tail
         self.tail.prev = node
-        node.prev = temp
-        
+
+
+    def remove_node(self, node):
+        node.prev.next = node.next
+        node.next.prev = node.prev
+        node.next = None
+        node.prev = None
         
 
 
