@@ -1,25 +1,22 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
-        res = (float('-inf'), float('-inf'))  #  idx and length
+        self.res = (0, 0)  #  idx and length
+
+        def extend(l, r):
+            while l >= 0 and r < n and s[l] == s[r]:
+                if r - l + 1 > self.res[1]:
+                    self.res = (l, r - l + 1)
+                l -= 1
+                r += 1
 
         for i in range(n):
             # single letter
-            l, r = i, i
-            while l >= 0 and r < n and s[l] == s[r]:
-                if r - l + 1 > res[1]:
-                    res = (l, r - l + 1)
-                l -= 1
-                r += 1
+            extend(i, i)
 
             # double letters
-            l, r = i, i + 1
-            while l >= 0 and r < n and s[l] == s[r]:
-                if r - l + 1 > res[1]:
-                    res = (l, r - l + 1)
-                l -= 1
-                r += 1
+            extend(i, i + 1)
 
-        return s[res[0]: res[0] + res[1]]
+        return s[self.res[0]: self.res[0] + self.res[1]]
         
         
