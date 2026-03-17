@@ -20,6 +20,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/meizhuixu/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
+| [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
 ## String
 |  |
@@ -40,6 +41,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/meizhuixu/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
+| [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Sliding Window
 |  |
@@ -105,6 +107,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
+| [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 ## Queue
 |  |
 | ------- |
@@ -120,6 +123,7 @@
 | [0355-design-twitter](https://github.com/meizhuixu/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/meizhuixu/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/meizhuixu/leetcode/tree/master/1046-last-stone-weight) |
 ## Monotonic Queue
@@ -174,6 +178,7 @@
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
+| [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Binary Search
@@ -362,6 +367,7 @@
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
+| [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 ## Trie
 |  |
 | ------- |
