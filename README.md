@@ -12,6 +12,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/meizhuixu/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/meizhuixu/leetcode/tree/master/0127-word-ladder) |
 | [0138-copy-list-with-random-pointer](https://github.com/meizhuixu/leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/meizhuixu/leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/meizhuixu/leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/meizhuixu/leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -36,6 +37,7 @@
 | [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/meizhuixu/leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/meizhuixu/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/meizhuixu/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/meizhuixu/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
@@ -89,6 +91,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/meizhuixu/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/meizhuixu/leetcode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/meizhuixu/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/meizhuixu/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
@@ -341,6 +344,7 @@
 | [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/meizhuixu/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/meizhuixu/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 ## String Matching
 |  |
 | ------- |
@@ -374,6 +378,7 @@
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/meizhuixu/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/meizhuixu/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
@@ -413,4 +418,8 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/meizhuixu/leetcode/tree/master/0207-course-schedule) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
