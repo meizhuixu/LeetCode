@@ -67,6 +67,7 @@
 | [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/meizhuixu/leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/meizhuixu/leetcode/tree/master/0143-reorder-list) |
+| [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/meizhuixu/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
@@ -99,6 +100,7 @@
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/meizhuixu/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/meizhuixu/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -114,6 +116,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
+| [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 ## Queue
@@ -126,6 +129,7 @@
 | [0023-merge-k-sorted-lists](https://github.com/meizhuixu/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/meizhuixu/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/meizhuixu/leetcode/tree/master/0355-design-twitter) |
@@ -183,6 +187,7 @@
 | [0047-permutations-ii](https://github.com/meizhuixu/leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/meizhuixu/leetcode/tree/master/0049-group-anagrams) |
 | [0215-kth-largest-element-in-an-array](https://github.com/meizhuixu/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
@@ -429,5 +434,6 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
