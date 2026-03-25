@@ -9,7 +9,7 @@ class Solution:
             else:
                 low = mid + 1
 
-        lowest_price = low
+        lowest_price = high
         total_orders = profit = 0
         for i in inventory:
             if i > lowest_price:
