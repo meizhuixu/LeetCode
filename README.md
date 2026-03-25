@@ -97,6 +97,7 @@
 | [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/meizhuixu/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/meizhuixu/leetcode/tree/master/0162-find-peak-element) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/meizhuixu/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/leetcode/tree/master/0239-sliding-window-maximum) |
@@ -207,6 +208,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/meizhuixu/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/meizhuixu/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/meizhuixu/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/meizhuixu/leetcode/tree/master/0162-find-peak-element) |
 | [0287-find-the-duplicate-number](https://github.com/meizhuixu/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/meizhuixu/leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/meizhuixu/leetcode/tree/master/0875-koko-eating-bananas) |
