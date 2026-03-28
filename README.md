@@ -72,6 +72,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/meizhuixu/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/meizhuixu/LeetCode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
+| [0088-merge-sorted-array](https://github.com/meizhuixu/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/meizhuixu/leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/meizhuixu/leetcode/tree/master/0143-reorder-list) |
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
@@ -101,6 +102,7 @@
 | [0078-subsets](https://github.com/meizhuixu/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/meizhuixu/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0088-merge-sorted-array](https://github.com/meizhuixu/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/meizhuixu/leetcode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/meizhuixu/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0136-single-number](https://github.com/meizhuixu/leetcode/tree/master/0136-single-number) |
@@ -209,6 +211,7 @@
 | [0016-3sum-closest](https://github.com/meizhuixu/leetcode/tree/master/0016-3sum-closest) |
 | [0047-permutations-ii](https://github.com/meizhuixu/leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/meizhuixu/leetcode/tree/master/0049-group-anagrams) |
+| [0088-merge-sorted-array](https://github.com/meizhuixu/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/meizhuixu/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
