@@ -31,6 +31,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/meizhuixu/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/meizhuixu/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/meizhuixu/LeetCode/tree/master/0006-zigzag-conversion) |
+| [0014-longest-common-prefix](https://github.com/meizhuixu/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/meizhuixu/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/meizhuixu/leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/meizhuixu/leetcode/tree/master/0022-generate-parentheses) |
@@ -80,6 +81,7 @@
 | [0001-two-sum](https://github.com/meizhuixu/leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/meizhuixu/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/meizhuixu/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/meizhuixu/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/meizhuixu/leetcode/tree/master/0016-3sum-closest) |
 | [0033-search-in-rotated-sorted-array](https://github.com/meizhuixu/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
@@ -406,6 +408,7 @@
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/meizhuixu/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/meizhuixu/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/meizhuixu/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
