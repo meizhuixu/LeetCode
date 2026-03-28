@@ -6,10 +6,8 @@ class Solution:
         while x >= 1:
             valid = True
             for f in freqs:
-                group = f // x
-                mod = f % x
+                group, mod = divmod(f, x)
                 if mod > group:
-                    x -= 1
                     valid = False
                     break
 
@@ -18,5 +16,9 @@ class Solution:
                 for f in freqs:
                     res += (f + x) // (x + 1)
                 return res
+
+            x -= 1
+
+        return 0
 
         
