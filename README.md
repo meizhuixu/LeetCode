@@ -117,6 +117,7 @@
 | [0287-find-the-duplicate-number](https://github.com/meizhuixu/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
+| [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0704-binary-search](https://github.com/meizhuixu/leetcode/tree/master/0704-binary-search) |
@@ -136,6 +137,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
@@ -230,6 +232,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/meizhuixu/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/meizhuixu/leetcode/tree/master/0162-find-peak-element) |
 | [0287-find-the-duplicate-number](https://github.com/meizhuixu/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0704-binary-search](https://github.com/meizhuixu/leetcode/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/meizhuixu/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/meizhuixu/leetcode/tree/master/0875-koko-eating-bananas) |
@@ -386,6 +389,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/meizhuixu/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/meizhuixu/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
+| [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 ## String Matching
 |  |
 | ------- |
@@ -468,6 +472,7 @@
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Simulation
 |  |
