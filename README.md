@@ -133,6 +133,7 @@
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/meizhuixu/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-last-stone-weight](https://github.com/meizhuixu/leetcode/tree/master/1046-last-stone-weight) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1929-concatenation-of-array](https://github.com/meizhuixu/leetcode/tree/master/1929-concatenation-of-array) |
 | [2910-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/meizhuixu/LeetCode/tree/master/2910-minimum-number-of-groups-to-create-a-valid-assignment) |
 ## Greedy
@@ -144,6 +145,7 @@
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [2910-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/meizhuixu/LeetCode/tree/master/2910-minimum-number-of-groups-to-create-a-valid-assignment) |
 ## Queue
 |  |
@@ -229,6 +231,7 @@
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 ## Binary Search
 |  |
 | ------- |
@@ -254,6 +257,7 @@
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 ## Linked List
 |  |
 | ------- |
