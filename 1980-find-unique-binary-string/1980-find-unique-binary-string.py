@@ -10,8 +10,8 @@ class Solution:
                     return binary_str
                 return
 
-            for i in range(2):
-                path.append(str(i))
+            for bit in ('0', '1'):
+                path.append(bit)
                 res = backtracking(idx + 1, path)
                 if res:
                     return res
