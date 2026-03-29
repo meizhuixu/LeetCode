@@ -26,6 +26,7 @@
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
+| [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [2910-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/meizhuixu/LeetCode/tree/master/2910-minimum-number-of-groups-to-create-a-valid-assignment) |
 ## String
 |  |
@@ -53,6 +54,7 @@
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
+| [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 ## Sliding Window
 |  |
 | ------- |
@@ -135,6 +137,7 @@
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1929-concatenation-of-array](https://github.com/meizhuixu/leetcode/tree/master/1929-concatenation-of-array) |
+| [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [2910-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/meizhuixu/LeetCode/tree/master/2910-minimum-number-of-groups-to-create-a-valid-assignment) |
 ## Greedy
 |  |
@@ -454,6 +457,7 @@
 | [0090-subsets-ii](https://github.com/meizhuixu/leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/meizhuixu/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
+| [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 ## Union-Find
 |  |
 | ------- |
