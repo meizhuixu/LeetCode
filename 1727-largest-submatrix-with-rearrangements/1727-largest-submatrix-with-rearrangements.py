@@ -4,10 +4,9 @@ class Solution:
         res = 0
 
         for i in range(m):
-            if i > 0:
-                for j in range(n):
-                    if matrix[i][j] != 0:
-                        matrix[i][j] += matrix[i - 1][j]
+            for j in range(n):
+                if i > 0 and matrix[i][j] == 1:
+                    matrix[i][j] += matrix[i - 1][j]
 
             sorted_row = sorted(matrix[i], reverse=True)
             for j in range(n):
