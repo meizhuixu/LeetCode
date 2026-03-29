@@ -5,10 +5,11 @@ class Solution:
         for num in nums:
             if num == 1:
                 count += 1
-                res = max(res, count)
+                
             else:
+                res = max(res, count)
                 count = 0
 
-        return res
+        return max(res, count)
 
         
