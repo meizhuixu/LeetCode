@@ -10,16 +10,17 @@ class Node:
 
 class Solution:
     def inorderSuccessor(self, node: 'Node') -> 'Optional[Node]':
+        # if node has right sub-tree
         if node.right:
             cur = node.right
             while cur and cur.left:
                 cur = cur.left
             return cur
 
-        if node.parent:
-            cur = node
-            while cur and cur.parent:
-                if cur.parent.left == cur:
-                    return cur.parent
-                cur = cur.parent
+        # if node has no right sub-tree, search for its parent
+        cur = node
+        while cur.parent and cur.parent.right == cur:
+            cur = cur.parent
+
+        return cur.parent
                 
