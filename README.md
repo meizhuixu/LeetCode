@@ -128,6 +128,7 @@
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
 | [0485-max-consecutive-ones](https://github.com/meizhuixu/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -153,6 +154,7 @@
 | [0011-container-with-most-water](https://github.com/meizhuixu/leetcode/tree/master/0011-container-with-most-water) |
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
@@ -241,6 +243,7 @@
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
@@ -424,6 +427,7 @@
 | [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/meizhuixu/LeetCode/tree/master/0198-house-robber) |
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0435-non-overlapping-intervals) |
 ## String Matching
 |  |
 | ------- |
