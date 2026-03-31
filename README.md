@@ -148,6 +148,7 @@
 | [1929-concatenation-of-array](https://github.com/meizhuixu/leetcode/tree/master/1929-concatenation-of-array) |
 | [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [2910-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/meizhuixu/LeetCode/tree/master/2910-minimum-number-of-groups-to-create-a-valid-assignment) |
+| [3872-longest-arithmetic-sequence-after-changing-at-most-one-element](https://github.com/meizhuixu/LeetCode/tree/master/3872-longest-arithmetic-sequence-after-changing-at-most-one-element) |
 ## Greedy
 |  |
 | ------- |
@@ -527,4 +528,8 @@
 |  |
 | ------- |
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
+## Enumeration
+|  |
+| ------- |
+| [3872-longest-arithmetic-sequence-after-changing-at-most-one-element](https://github.com/meizhuixu/LeetCode/tree/master/3872-longest-arithmetic-sequence-after-changing-at-most-one-element) |
 <!---LeetCode Topics End-->
