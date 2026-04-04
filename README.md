@@ -60,6 +60,7 @@
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/meizhuixu/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 ## Sliding Window
 |  |
@@ -202,6 +203,7 @@
 | [0735-asteroid-collision](https://github.com/meizhuixu/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/meizhuixu/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Design
 |  |
 | ------- |
