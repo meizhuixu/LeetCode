@@ -123,6 +123,7 @@
 | [0162-find-peak-element](https://github.com/meizhuixu/leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/meizhuixu/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/meizhuixu/LeetCode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/meizhuixu/LeetCode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/meizhuixu/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/leetcode/tree/master/0239-sliding-window-maximum) |
@@ -280,6 +281,7 @@
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/meizhuixu/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/meizhuixu/leetcode/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/meizhuixu/LeetCode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
@@ -367,6 +369,7 @@
 | [0111-minimum-depth-of-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/meizhuixu/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/meizhuixu/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/meizhuixu/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/meizhuixu/leetcode/tree/master/0207-course-schedule) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/meizhuixu/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0226-invert-binary-tree) |
@@ -421,6 +424,7 @@
 | [0111-minimum-depth-of-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/meizhuixu/leetcode/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/meizhuixu/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/meizhuixu/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/meizhuixu/leetcode/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0226-invert-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/meizhuixu/leetcode/tree/master/0261-graph-valid-tree) |
@@ -501,6 +505,7 @@
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/meizhuixu/LeetCode/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/meizhuixu/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
