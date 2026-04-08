@@ -1,32 +1,29 @@
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
-        # create graph {u: [(w, v)]} record directionnal edges from one vertex
+        # 1. 建图
         graph = defaultdict(list)
         for u, v, w in times:
-            graph[u].append((w, v))
-
-        # create array to store minimum time from k
-        dist = [float('inf')] * (n + 1)
-        dist[k] = 0
-
-        # initiate a heap to do bfs
-        pq = []
-        heapq.heappush(pq, (0, k)) # add origin k
+            graph[u].append((v, w))
+        
+        # 2. 初始化
+        pq = [(0, k)]  # (当前累积时间, 当前节点)
+        visited = {}   # 用字典存储 {节点: 最短时间}
+        
         while pq:
-            d, node = heapq.heappop(pq)
-            if d > dist[node]:
-                continue
+            time, u = heapq.heappop(pq)
             
-            for w, v in graph[node]:
-                new_dist = d + w
-                if new_dist < dist[v]:
-                    dist[v] = new_dist
-                    heapq.heappush(pq, (new_dist, v))
-
-        total_time = 0
-        for i in range(1, n + 1):
-            if dist[i] == float('inf'):
-                return -1
-            total_time = max(total_time, dist[i])
-
-        return total_time
+            # --- 核心填空逻辑 ---
+            if u in visited:
+                continue
+            # 第一次弹出时，记录最短时间
+            visited[u] = time
+            
+            # 遍历邻居
+            if u in graph:
+                for v, w in graph[u]:
+                    if v not in visited:
+                        heapq.heappush(pq, (time + w, v))
+        
+        # 3. 结果判断
+        # 如果访问到的节点数等于 n，返回 visited 中最大的时间，否则返回 -1
+        return max(visited.values()) if len(visited) == n else -1
