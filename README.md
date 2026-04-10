@@ -232,6 +232,7 @@
 | [0009-palindrome-number](https://github.com/meizhuixu/leetcode/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/meizhuixu/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/meizhuixu/LeetCode/tree/master/0013-roman-to-integer) |
+| [0070-climbing-stairs](https://github.com/meizhuixu/LeetCode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
@@ -446,6 +447,7 @@
 | [0022-generate-parentheses](https://github.com/meizhuixu/leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/meizhuixu/LeetCode/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/meizhuixu/LeetCode/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/meizhuixu/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/meizhuixu/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
@@ -535,6 +537,7 @@
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/meizhuixu/LeetCode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/meizhuixu/leetcode/tree/master/0139-word-break) |
 ## Prefix Sum
 |  |
