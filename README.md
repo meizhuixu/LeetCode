@@ -140,6 +140,7 @@
 | [0485-max-consecutive-ones](https://github.com/meizhuixu/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/meizhuixu/leetcode/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/meizhuixu/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
@@ -289,6 +290,7 @@
 | [0200-number-of-islands](https://github.com/meizhuixu/LeetCode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
+| [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 ## Linked List
@@ -387,6 +389,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/meizhuixu/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/meizhuixu/LeetCode/tree/master/0743-network-delay-time) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Binary Search Tree
@@ -437,6 +440,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/meizhuixu/LeetCode/tree/master/0743-network-delay-time) |
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -516,6 +520,7 @@
 | [0261-graph-valid-tree](https://github.com/meizhuixu/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 ## Graph Theory
 |  |
 | ------- |
