@@ -1,46 +1,46 @@
 class Twitter:
 
     def __init__(self):
-        self.tweets = defaultdict(list)
-        self.friends = defaultdict(set)
         self.time = 0
+        self.t_map = defaultdict(list)
+        self.f_map = defaultdict(set)
         
 
     def postTweet(self, userId: int, tweetId: int) -> None:
-        self.tweets[userId].append((self.time, tweetId))
-        self.time += 1
+        self.t_map[userId].append((self.time, tweetId))
+        self.time -= 1
         
 
     def getNewsFeed(self, userId: int) -> List[int]:
-        users = self.friends[userId]
-        users.add(userId)
+        self.f_map[userId].add(userId)
 
         pq = []
-        for u in users:
-            if self.tweets[u]:
-                t, tId = self.tweets[u][-1]
-                heapq.heappush(pq, (-t, tId, u, 1))
+        for u in self.f_map[userId]:
+            if u in self.t_map:
+                idx = len(self.t_map[u]) - 1
+                time, tId = self.t_map[u][idx]
+                heapq.heappush(pq, (time, tId, u, idx))
 
         res = []
         while pq and len(res) < 10:
-            neg_t, tId, u, count = heapq.heappop(pq)
+            time, tId, uId, idx = heapq.heappop(pq)
             res.append(tId)
 
-            if count < len(self.tweets[u]):
-                next_t, next_tId = self.tweets[u][-(count + 1)]
-                heapq.heappush(pq, (-next_t, next_tId, u, count + 1))
+            if idx > 0:
+                new_time, new_tId = self.t_map[uId][idx - 1]
+                heapq.heappush(pq, (new_time, new_tId, uId, idx - 1))
 
         return res
-
+        
 
     def follow(self, followerId: int, followeeId: int) -> None:
         if followerId != followeeId:
-            self.friends[followerId].add(followeeId)
+            self.f_map[followerId].add(followeeId)
         
 
     def unfollow(self, followerId: int, followeeId: int) -> None:
-        if followeeId in self.friends[followerId]:
-            self.friends[followerId].remove(followeeId)
+        if followeeId in self.f_map[followerId]:
+            self.f_map[followerId].remove(followeeId)
         
 
 
