@@ -1,9 +1,9 @@
 class Twitter:
 
     def __init__(self):
-        self.following = defaultdict(set) # {followerId: {followeeId, ..}}
-        self.tweets = defaultdict(list) # {userId: [(time, tweetId), ..]}
-        self.time = 0 # tweet  time += 1
+        self.tweets = defaultdict(list)
+        self.friends = defaultdict(set)
+        self.time = 0
         
 
     def postTweet(self, userId: int, tweetId: int) -> None:
@@ -12,51 +12,35 @@ class Twitter:
         
 
     def getNewsFeed(self, userId: int) -> List[int]:
-        # add foloweeId + userId into one list
-        users = list(self.following[userId]) + [userId]
-        users = self.following[userId] | {userId}
-        
-        # pq = []
-        # for user in users:
-        #     for time, tweet in self.tweets[user][-10:]:
-        #         heapq.heappush(pq, (time, tweet))
-        #         if len(pq) > 10:
-        #             heapq.heappop(pq)
-          #O(10*nlog10)          
-        # res = []
-        # while pq:
-        #     _, tweet = heapq.heappop(pq)
-        #     res.append(tweet)
-        #O(10log10)
-        # return res[::-1]
+        users = self.friends[userId]
+        users.add(userId)
 
-        heap = []
-        for user in users:
-            if self.tweets[user]:
-                idx = len(self.tweets[user]) - 1
-                time, t_id = self.tweets[user][idx]
-                heapq.heappush(heap, (-time, t_id, user, idx))
-        #O(nlogn)
+        pq = []
+        for u in users:
+            if self.tweets[u]:
+                t, tId = self.tweets[u][-1]
+                heapq.heappush(pq, (-t, tId, u, 1))
+
         res = []
-        while heap and len(res) < 10:
-            t, t_id, user, idx = heapq.heappop(heap)
-            res.append(t_id)
-            if idx > 0:
-                idx -= 1
-                time, tweetId = self.tweets[user][idx]
-                heapq.heappush(heap, (-time, tweetId, user, idx))
+        while pq and len(res) < 10:
+            neg_t, tId, u, count = heapq.heappop(pq)
+            res.append(tId)
+
+            if count < len(self.tweets[u]):
+                next_t, next_tId = self.tweets[u][-(count + 1)]
+                heapq.heappush(pq, (-next_t, next_tId, u, count + 1))
+
         return res
-        #O(10logn)  
-        #500
-                 
+
 
     def follow(self, followerId: int, followeeId: int) -> None:
         if followerId != followeeId:
-            self.following[followerId].add(followeeId)
+            self.friends[followerId].add(followeeId)
         
 
     def unfollow(self, followerId: int, followeeId: int) -> None:
-        self.following[followerId].discard(followeeId)
+        if followeeId in self.friends[followerId]:
+            self.friends[followerId].remove(followeeId)
         
 
 
