@@ -1,33 +1,42 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-        board = [['.'] * n for _ in range(n)]
+        # edge case: no such solution
+        # initiate an empty board with '.'
+        # 4 sets: (row), col, diag * 2
+        # row:  row idx
+        # x, y :  sum of x, y   or   difference of x, y
+        # backtracking: 
+        #  iterate through each grid in one line
+
+
+        col, diag_1, diag_2 = set(), set(), set()
+        board = [['.'] * n for i in range(n)]
         res = []
-        seen_col = set()
-        seen_diag1 = set()
-        seen_diag2 = set()
-        
-        
-        def backtracking(row):
-            if row == n:
-                res.append([''.join(line) for line in board])
-                return
+        def backtracking(r):
+            # base case
+            if r == n:
+                res.append([''.join(board[i]) for i in range(n)])
 
-            for col in range(n):
-                if col in seen_col or (row + col) in seen_diag1 or (row - col) in seen_diag2:
+            for c in range(n):
+                if c in col or (r + c) in diag_1 or (r - c) in diag_2:
                     continue
-                seen_col.add(col)
-                seen_diag1.add(row + col)
-                seen_diag2.add(row - col)
-                board[row][col] = 'Q'
+                board[r][c] = 'Q'
+                col.add(c)
+                diag_1.add(r + c)
+                diag_2.add(r - c)
 
-                backtracking(row + 1)
+                backtracking(r + 1)
 
-                seen_col.remove(col)
-                seen_diag1.remove(row + col)
-                seen_diag2.remove(row - col)
-                board[row][col] = '.'
+                board[r][c] = '.'
+                col.remove(c)
+                diag_1.remove(r + c)
+                diag_2.remove(r - c)
 
         backtracking(0)
         return res
 
         
+
+                    
+
+
