@@ -1,41 +1,25 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        # topologic 
-        # indegree array: [1, 2]
-        # idx: course   num: prereq number of this cours   ==0  -> take
-        # dict: {1: [2, 3]}
-        # key: course i   value: list of courses whose prereq is i
-        # bfs: put course (indgree == 0) into a queue
-        # pop c , iterater through dict[c], indegree[nei] -= 1
-        # indegree[nei] == 0 -> put into the queue
-        # queue is empty  , check the number of courses  == numCourse -> True
-        # -> False
-        # time: O(E + V)
-        # space: O(V + E)
-
-        indegree = [0] * numCourses
-        hashmap = defaultdict(list)
+        course_map = defaultdict(list)
+        in_degree = defaultdict(int)
         for a, b in prerequisites:
-            indegree[a] += 1
-            hashmap[b].append(a)
+            course_map[b].append(a)
+            in_degree[a] += 1
 
         queue = deque()
-        for i, num in enumerate(indegree):
-            if num == 0:
-                queue.append(i)
+        for c in range(numCourses):
+            if in_degree[c] == 0:
+                queue.append(c)
 
-        total = 0
+        res = []
         while queue:
             cur = queue.popleft()
-            total += 1
+            res.append(cur)
 
-            for nei in hashmap[cur]:
-                indegree[nei] -= 1
-                if indegree[nei] == 0:
+            for nei in course_map[cur]:
+                in_degree[nei] -= 1
+                if in_degree[nei] == 0:
                     queue.append(nei)
 
-        return total == numCourses
-
-
-
-        
+        # check circle
+        return True if len(res) == numCourses else False
