@@ -1,19 +1,20 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        def robLine(nums):
-            n = len(nums)
-            if n == 1:
-                return nums[0]
-
-            dp = [0] * n
-            dp[0], dp[1] = nums[0], max(nums[0], nums[1])
-            for i in range(2, n):
-                dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])
-
-            return dp[-1]
-
-        if len(nums) == 1:
+        n = len(nums)
+        if n == 1:
             return nums[0]
 
-        return max(robLine(nums[:-1]), robLine(nums[1:]))
+        pre1 = cur1 = 0
+        for i in range(n - 1):
+            temp = cur1
+            cur1 = max(nums[i] + pre1, cur1)
+            pre1 = temp
+
+        pre2 = cur2 = 0
+        for j in range(1, n):
+            temp = cur2
+            cur2 = max(nums[j] + pre2, cur2)
+            pre2 = temp
+
+        return max(cur1, cur2)
         
