@@ -150,6 +150,7 @@
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
 | [0474-ones-and-zeroes](https://github.com/meizhuixu/LeetCode/tree/master/0474-ones-and-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/meizhuixu/LeetCode/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/meizhuixu/LeetCode/tree/master/0494-target-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
@@ -485,6 +486,7 @@
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/meizhuixu/LeetCode/tree/master/0474-ones-and-zeroes) |
+| [0494-target-sum](https://github.com/meizhuixu/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/meizhuixu/LeetCode/tree/master/0647-palindromic-substrings) |
 ## String Matching
@@ -541,6 +543,7 @@
 | [0090-subsets-ii](https://github.com/meizhuixu/leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/meizhuixu/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
+| [0494-target-sum](https://github.com/meizhuixu/LeetCode/tree/master/0494-target-sum) |
 | [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 ## Union-Find
 |  |
