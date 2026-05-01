@@ -165,6 +165,7 @@
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/meizhuixu/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-last-stone-weight](https://github.com/meizhuixu/leetcode/tree/master/1046-last-stone-weight) |
+| [1049-last-stone-weight-ii](https://github.com/meizhuixu/LeetCode/tree/master/1049-last-stone-weight-ii) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1929-concatenation-of-array](https://github.com/meizhuixu/leetcode/tree/master/1929-concatenation-of-array) |
@@ -494,6 +495,7 @@
 | [0494-target-sum](https://github.com/meizhuixu/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/meizhuixu/LeetCode/tree/master/0647-palindromic-substrings) |
+| [1049-last-stone-weight-ii](https://github.com/meizhuixu/LeetCode/tree/master/1049-last-stone-weight-ii) |
 ## String Matching
 |  |
 | ------- |
