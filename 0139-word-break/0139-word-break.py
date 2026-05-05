@@ -1,27 +1,16 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        # leetcode
-        # leet
-        # f(code)
+        wordSet = set(wordDict)
+        n = len(s)
+        dp = [False] * (n + 1)
+        dp[0] = True
 
-        word_set = set(wordDict)
-        memo = defaultdict(bool)
-        def dfs(s):
-            if s in memo:
-                return memo[s]
-            if s in word_set:
-                memo[s] = True
-                return True
-            for j in range(len(s)):
-                if s[0:j] in word_set:
-                    if dfs(s[j:]):
-                        return True
-            memo[s] = False
-            return False
-        return dfs(s)
+        for i in range(1, n + 1):
+            for j in range(i):
+                if s[j: i] in wordDict and dp[j]:
+                    dp[i] = True
 
-        # s: len N
-        # dic: len M
-        # branch M
-        # M^N
-        
+        return dp[-1]
+
+        # time: O(n * n)  n = len(s)
+        # space: O(n)
