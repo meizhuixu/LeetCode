@@ -9,25 +9,19 @@ class Solution:
         # s2[j] == s3[i + j]
         
         dp = [[False] * (n + 1) for _ in range(m + 1)]
-        dp[0][0] = True
-        for i in range(m):
-            if s1[i] == s3[i]:
-                dp[i + 1][0] = True
-            else:
-                break
-        for j in range(n):
-            if s2[j] == s3[j]:
-                dp[0][j + 1] = True
-            else:
-                break
 
         # s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"
-        for i in range(1, m + 1):
-            for j in range(1, n + 1):
-                if s1[i - 1] == s3[i + j - 1] and dp[i - 1][j]:
+        for i in range(0, m + 1):
+            for j in range(0, n + 1):
+                if i == 0 and j == 0:
                     dp[i][j] = True
-                elif s2[j - 1] == s3[i + j - 1] and dp[i][j - 1]:
-                    dp[i][j] = True
+                elif j == 0:
+                    dp[i][j] = s1[i - 1] == s3[i - 1] and dp[i - 1][j]
+                elif i == 0:
+                    dp[i][j] = s2[j - 1] == s3[j - 1] and dp[i][j - 1]
+                elif i > 0 and j > 0:
+                    dp[i][j] = (s1[i - 1] == s3[i + j - 1] and dp[i - 1][j]) or (s2[j - 1] == s3[i + j - 1] and dp[i][j - 1])
+
 
         return dp[-1][-1]
          
