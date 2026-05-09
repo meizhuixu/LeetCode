@@ -1,7 +1,6 @@
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
         n = len(nums)
-        dp = [1] * n
         res = prev = 1
 
         for i in range(1, n):
