@@ -5,15 +5,16 @@ class Solution:
             return False
 
         dp = [False] * (n + 1)
-        dp[0] = True
-        for j in range(1, n + 1):
-            dp[j] = s2[j - 1] == s3[j - 1] and dp[j - 1]
-
-        for i in range(1, m + 1):
-            dp[0] = s1[i - 1] == s3[i - 1] and dp[0]
-
-            for j in range(1, n + 1):
-                dp[j] = (s1[i - 1] == s3[i + j - 1] and dp[j]) or (s2[j - 1] == s3[i + j - 1] and dp[j - 1])
+        for i in range(m + 1):
+            for j in range(n + 1):
+                if i == 0 and j == 0:
+                    dp[j] = True
+                elif i == 0:
+                    dp[j] = s2[j - 1] == s3[j - 1] and dp[j - 1]
+                elif j == 0:
+                    dp[j] = s1[i - 1] == s3[i - 1] and dp[j]
+                else:
+                    dp[j] = (s1[i - 1] == s3[i + j - 1] and dp[j]) or (s2[j - 1] == s3[i + j - 1] and dp[j - 1])
         
         return dp[-1]
 
