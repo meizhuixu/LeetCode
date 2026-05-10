@@ -4,15 +4,13 @@ class Solution:
         if m > n:
             return False
 
-        dp = [0] * (n + 1)
-        for i in range(1, m + 1):
-            prev = 0
-            for j in range(1, n + 1):
-                curr = dp[j]
-                if s[i - 1] == t[j - 1]:
-                    dp[j] = prev + 1
-                else:
-                    dp[j] = dp[j - 1]
-                prev = curr
+        p1 = p2 = 0
+        while p1 < m and p2 < n:
+            if s[p1] == t[p2]:
+                p1 += 1
+            p2 += 1
 
-        return dp[-1] == m
+        return p1 == m
+
+    
+        
