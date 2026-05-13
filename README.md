@@ -65,6 +65,7 @@
 | [0474-ones-and-zeroes](https://github.com/meizhuixu/LeetCode/tree/master/0474-ones-and-zeroes) |
 | [0516-longest-palindromic-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
+| [0583-delete-operation-for-two-strings](https://github.com/meizhuixu/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/meizhuixu/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
@@ -520,6 +521,7 @@
 | [0494-target-sum](https://github.com/meizhuixu/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/meizhuixu/LeetCode/tree/master/0518-coin-change-ii) |
+| [0583-delete-operation-for-two-strings](https://github.com/meizhuixu/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/meizhuixu/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/meizhuixu/LeetCode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0746-min-cost-climbing-stairs](https://github.com/meizhuixu/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
