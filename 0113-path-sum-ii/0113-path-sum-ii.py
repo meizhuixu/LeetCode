@@ -12,19 +12,16 @@ class Solution:
             return res
         
         def dfs(node, path, total):
-            if total == targetSum and not node.left and not node.right:
-                res.append(path[:])
-                return
-
-
-            if node.left:
-                path.append(node.left.val)
-                dfs(node.left, path, total + node.left.val)
+            if node:
+                path.append(node.val)
+                total += node.val
+                if total == targetSum and not node.left and not node.right:
+                    res.append(path[:])
+                else:
+                    dfs(node.left, path, total)
+                    dfs(node.right, path, total)
                 path.pop()
-            if node.right:
-                path.append(node.right.val)
-                dfs(node.right, path, total + node.right.val)
-                path.pop()
+                total -= node.val
 
-        dfs(root, [root.val], root.val)
+        dfs(root, [], 0)
         return res
