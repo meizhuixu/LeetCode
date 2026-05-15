@@ -8,6 +8,7 @@ class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
         # edge case: empty tree
         seen_sum = defaultdict(int)
+        seen_sum[0] += 1
         self.count = 0
         
         def dfs(node, curr_sum):
@@ -15,8 +16,8 @@ class Solution:
                 return
 
             curr_sum += node.val
-            if curr_sum == targetSum:
-                self.count += 1
+            # if curr_sum == targetSum:
+            #     self.count += 1
             diff = curr_sum - targetSum
             self.count += seen_sum[diff]
 
