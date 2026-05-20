@@ -1,40 +1,36 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        if len(s1) > len(s2):
-            return False
-            
-        count_s1 = Counter(s1)  # s1 = 'ab', count_s1 = {a: 1, b: 1}
-        count_s2 = defaultdict(int) # sliding window
-        meet = l = 0 
-        # matched char in two dictionaries, count == len(count_s1) -> True
-        # after iterate through -> False
-        
+        # permutation:sliding window
+        # s1 = "ab", s2 = "eidbaooo"
+        #                     lr
+        # seen = {b: 1, a: 1 }
+        # match = 2
+        # match == target: True
+        # time: O(n)
+        # space: O(1)
+
+        window = defaultdict(int)
+        need = Counter(s1)
+        target = len(need)
+        count = l = 0
+
         for r in range(len(s2)):
-            # add s2[r] into dict
-            cur = s2[r]
-            count_s2[cur] += 1
-            if count_s2[cur] == count_s1[cur]:
-                meet += 1
-                
-            # check left pointer
+            char = s2[r]
+            if char in need:
+                window[char] += 1
+                if window[char] == need[char]:
+                    count += 1
+
             if r - l + 1 > len(s1):
                 drop = s2[l]
-                if count_s2[drop] == count_s1[drop]:
-                    meet -= 1
-                count_s2[drop] -= 1
+                if drop in need:
+                    if window[drop] == need[drop]:
+                        count -= 1
+                    window[drop] -= 1
 
                 l += 1
-                
-            # check permutation
-            if meet == len(count_s1):
+
+            if r - l + 1 == len(s1) and count == target:
                 return True
-                
+
         return False
-                
-        
-                
-            
-                
-            
-        
-        
