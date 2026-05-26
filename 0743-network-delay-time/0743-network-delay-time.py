@@ -1,5 +1,6 @@
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+        # time: O(E); space: O(V + E)
         graph = defaultdict(list)
         for u, v, w in times:
             graph[u].append((v, w))
@@ -7,6 +8,7 @@ class Solution:
         visited = {}
         pq = [(0, k)]
 
+        # time: O(ElogV)
         while pq:
             time, node = heapq.heappop(pq)
 
@@ -16,5 +18,6 @@ class Solution:
             visited[node] = time
             for nxt, dt in graph[node]:
                 heapq.heappush(pq, (time + dt, nxt))
-
+                
+        # time: O(V)
         return max(visited.values()) if len(visited) == n else -1
