@@ -223,6 +223,7 @@
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/meizhuixu/leetcode/tree/master/1046-last-stone-weight) |
+| [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 ## Monotonic Queue
 |  |
@@ -604,6 +605,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
+| [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
 ## Graph Theory
 |  |
 | ------- |
@@ -615,6 +617,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/meizhuixu/LeetCode/tree/master/0743-network-delay-time) |
+| [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -663,4 +666,8 @@
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/meizhuixu/LeetCode/tree/master/0718-maximum-length-of-repeated-subarray) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
 <!---LeetCode Topics End-->
