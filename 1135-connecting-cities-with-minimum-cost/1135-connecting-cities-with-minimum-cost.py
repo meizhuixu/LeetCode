@@ -22,6 +22,6 @@ class Solution:
             for nei, wei in graph[city]:
                 heapq.heappush(pq, (wei, nei))
 
-        return total_cost if all(visited[i] for i in range(1, n + 1)) else -1
+        return total_cost if conneted_city == n else -1
 
         
