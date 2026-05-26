@@ -21,11 +21,11 @@ class UnionFind:
 
 class Solution:
     def minimumCost(self, n: int, connections: List[List[int]]) -> int:
-        connections.sort(key=lambda x: x[2])
-        uf = UnionFind(n)
+        connections.sort(key=lambda x: x[2]) # time O(ElogE) space O(E)
+        uf = UnionFind(n) # time O(V) space O(V)
         total_cost = 0
 
-        for x, y, cost in connections:
+        for x, y, cost in connections: # time O(E)
             if uf.join(x, y):
                 total_cost += cost
             if uf.count == n:
