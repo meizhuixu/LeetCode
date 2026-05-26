@@ -28,8 +28,10 @@ class Solution:
         for x, y, cost in connections:
             if uf.join(x, y):
                 total_cost += cost
+            if uf.count == n:
+                return total_cost
 
-        return total_cost if uf.count == n else -1
+        return -1
 
 
         
