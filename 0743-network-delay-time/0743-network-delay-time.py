@@ -19,10 +19,10 @@ class Solution:
             visited[u] = time
             
             # 遍历邻居
-            if u in graph:
-                for v, w in graph[u]:
-                    if v not in visited:
-                        heapq.heappush(pq, (time + w, v))
+            # if u in graph:
+            for v, w in graph[u]:
+                if v not in visited:
+                    heapq.heappush(pq, (time + w, v))
         
         # 3. 结果判断
         # 如果访问到的节点数等于 n，返回 visited 中最大的时间，否则返回 -1
