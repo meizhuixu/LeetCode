@@ -1,37 +1,47 @@
-class UnionFind:
-    def __init__(self, n):
-        self.parent = list(range(n + 1))
-        self.count = 1
-
-    def find(self, u):
-        if self.parent[u] == u:
-            return u
-        self.parent[u] = self.find(self.parent[u])
-        return self.parent[u]
-
-    def join(self, u, v):
-        u = self.find(u)
-        v = self.find(v)
-        if u == v:
-            return False
-        else:
-            self.parent[u] = v
-            self.count += 1
-            return True
-
 class Solution:
     def minimumCost(self, n: int, connections: List[List[int]]) -> int:
-        connections.sort(key=lambda x: x[2]) # time O(ElogE) space O(E)
-        uf = UnionFind(n) # time O(V) space O(V)
-        total_cost = 0
+        # connect n nodes, at least (n - 1) edges
+        if len(connections) < n - 1:
+            return -1
 
-        for x, y, cost in connections: # time O(E)
-            if uf.join(x, y):
-                total_cost += cost
-            if uf.count == n:
-                return total_cost
+        # n = 3, connections = [[1,2,5],[1,3,6],[2,3,1]]
+        # pq = [(1, 3), (6, 3) ]   cost, next
+        # visited = [False] * (n + 1)
+        # total_cost = 5 + 1 = 6
 
-        return -1
+        # build graph
+        # time O(E)  space O(V + E)
+        graph = defaultdict(list)
+        for x, y, cost in connections:
+            graph[x].append((cost, y))
+            graph[y].append((cost, x))
+
+        visited = [False] * (n + 1)   # 1 -> n
+        total_cost = connected_city = 0
+        pq = [(0, 1)]
+
+        # time O(ElogV) space O(E)
+        # E = V**2
+        # logE = 2logV
+        while pq:
+            cost, node = heapq.heappop(pq)
+
+            if visited[node]:
+                continue
+
+            visited[node] = True
+            total_cost += cost
+            connected_city += 1
+
+            for cost, nxt in graph[node]:
+                if not visited[nxt]:
+                    heapq.heappush(pq, (cost, nxt))
+
+        return total_cost if connected_city == n else -1
+
+        # time O(ElogV) space O(V + E)
+
+
 
 
         
