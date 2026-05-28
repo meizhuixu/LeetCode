@@ -1,45 +1,37 @@
+class UnionFind:
+    def __init__(self, n):
+        self.parent = list(range(n + 1))   # let 0 be empty
+
+    def find(self, u):
+        if self.parent[u] == u:
+            return u
+        self.parent[u] = self.find(self.parent[u])
+        return self.parent[u]
+
+    def join(self, u, v):
+        u = self.find(u)
+        v = self.find(v)
+        if u == v:
+            return False
+        else:
+            self.parent[u] = v
+            return True
+
+
 class Solution:
     def minimumCost(self, n: int, connections: List[List[int]]) -> int:
-        # connect n nodes, at least (n - 1) edges
-        if len(connections) < n - 1:
-            return -1
+        connections.sort(key=lambda x:x[2])
+        total_cost, left_connections = 0, n - 1
+        uf = UnionFind(n)
 
-        # n = 3, connections = [[1,2,5],[1,3,6],[2,3,1]]
-        # pq = [(1, 3), (6, 3) ]   cost, next
-        # visited = [False] * (n + 1)
-        # total_cost = 5 + 1 = 6
+        for u, v, cost in connections:
+            if uf.join(u, v): # return True
+                total_cost += cost
+                left_connections -= 1
+            if left_connections == 0:
+                return total_cost
 
-        # build graph
-        # time O(E)  space O(V + E)
-        graph = defaultdict(list)
-        for x, y, cost in connections:
-            graph[x].append((cost, y))
-            graph[y].append((cost, x))
-
-        visited = [False] * (n + 1)   # 1 -> n
-        total_cost = connected_city = 0
-        pq = [(0, 1)]
-
-        # time O(ElogV) space O(E)
-        # E = V**2
-        # logE = 2logV
-        while pq:
-            cost, node = heapq.heappop(pq)
-
-            if visited[node]:
-                continue
-
-            visited[node] = True
-            total_cost += cost
-            connected_city += 1
-
-            for cost, nxt in graph[node]:
-                if not visited[nxt]:
-                    heapq.heappush(pq, (cost, nxt))
-
-        return total_cost if connected_city == n else -1
-
-        # time O(ElogV) space O(V + E)
+        return -1
 
 
 
