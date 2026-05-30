@@ -1,23 +1,13 @@
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
-        pq = [-val for val in Counter(tasks).values()]
-        heapq.heapify(pq)
+        # greedy
+        hashmap = Counter(tasks)
+        max_freq = [0, 0] # freq, number of tasks
+        for freq in hashmap.values():
+            if freq == max_freq[0]:
+                max_freq[1] += 1
+            elif freq > max_freq[0]:
+                max_freq = [freq, 1]
 
-        queue = deque()
-        time = 0
-        while pq or queue:
-            time += 1
-
-            if pq:
-                freq = heapq.heappop(pq)
-                freq += 1
-                if freq < 0:
-                    queue.append((freq, time + n))
-
-            if queue and queue[0][1] == time:
-                freq, _ = queue.popleft()
-                heapq.heappush(pq, freq)
-
-        return time
-
-        
+        res = max_freq[0] * (n + 1) - n + (max_freq[1] - 1)
+        return max(len(tasks), res)
