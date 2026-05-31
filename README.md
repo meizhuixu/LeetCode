@@ -183,6 +183,7 @@
 | [1035-uncrossed-lines](https://github.com/meizhuixu/LeetCode/tree/master/1035-uncrossed-lines) |
 | [1046-last-stone-weight](https://github.com/meizhuixu/leetcode/tree/master/1046-last-stone-weight) |
 | [1049-last-stone-weight-ii](https://github.com/meizhuixu/LeetCode/tree/master/1049-last-stone-weight-ii) |
+| [1584-min-cost-to-connect-all-points](https://github.com/meizhuixu/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1929-concatenation-of-array](https://github.com/meizhuixu/leetcode/tree/master/1929-concatenation-of-array) |
@@ -610,6 +611,7 @@
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
+| [1584-min-cost-to-connect-all-points](https://github.com/meizhuixu/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Graph Theory
 |  |
 | ------- |
@@ -623,6 +625,7 @@
 | [0743-network-delay-time](https://github.com/meizhuixu/LeetCode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/meizhuixu/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
+| [1584-min-cost-to-connect-all-points](https://github.com/meizhuixu/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -676,4 +679,5 @@
 |  |
 | ------- |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
+| [1584-min-cost-to-connect-all-points](https://github.com/meizhuixu/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
