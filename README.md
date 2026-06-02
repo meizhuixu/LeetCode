@@ -189,6 +189,7 @@
 | [1584-min-cost-to-connect-all-points](https://github.com/meizhuixu/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/meizhuixu/LeetCode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1929-concatenation-of-array](https://github.com/meizhuixu/leetcode/tree/master/1929-concatenation-of-array) |
 | [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [2910-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/meizhuixu/LeetCode/tree/master/2910-minimum-number-of-groups-to-create-a-valid-assignment) |
@@ -230,6 +231,7 @@
 | [1046-last-stone-weight](https://github.com/meizhuixu/leetcode/tree/master/1046-last-stone-weight) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/meizhuixu/LeetCode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -307,6 +309,7 @@
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/meizhuixu/LeetCode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Binary Search
 |  |
 | ------- |
@@ -326,6 +329,7 @@
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/meizhuixu/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/meizhuixu/LeetCode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Matrix
 |  |
 | ------- |
@@ -685,4 +689,8 @@
 | ------- |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1584-min-cost-to-connect-all-points](https://github.com/meizhuixu/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
+## Sweep Line
+|  |
+| ------- |
+| [1851-minimum-interval-to-include-each-query](https://github.com/meizhuixu/LeetCode/tree/master/1851-minimum-interval-to-include-each-query) |
 <!---LeetCode Topics End-->
