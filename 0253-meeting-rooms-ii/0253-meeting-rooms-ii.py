@@ -5,9 +5,8 @@ class Solution:
             hashmap[s] += 1
             hashmap[e] -= 1
 
-        count = result = 0
-        for time in sorted(hashmap.keys()):
-            count += hashmap[time]
-            result = max(result, count)
-
-        return result
+        count = res = 0
+        for t in sorted(hashmap.keys()):
+            count += hashmap[t]
+            res = max(res, count)
+        return res
