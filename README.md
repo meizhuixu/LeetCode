@@ -61,6 +61,7 @@
 | [0212-word-search-ii](https://github.com/meizhuixu/leetcode/tree/master/0212-word-search-ii) |
 | [0269-alien-dictionary](https://github.com/meizhuixu/LeetCode/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0332-reconstruct-itinerary](https://github.com/meizhuixu/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [0392-is-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/meizhuixu/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0474-ones-and-zeroes](https://github.com/meizhuixu/LeetCode/tree/master/0474-ones-and-zeroes) |
@@ -158,6 +159,7 @@
 | [0287-find-the-duplicate-number](https://github.com/meizhuixu/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/meizhuixu/LeetCode/tree/master/0322-coin-change) |
+| [0332-reconstruct-itinerary](https://github.com/meizhuixu/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
@@ -222,6 +224,7 @@
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0332-reconstruct-itinerary](https://github.com/meizhuixu/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/meizhuixu/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
@@ -304,6 +307,7 @@
 | [0252-meeting-rooms](https://github.com/meizhuixu/LeetCode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/meizhuixu/leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0332-reconstruct-itinerary](https://github.com/meizhuixu/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
@@ -449,6 +453,7 @@
 | [0269-alien-dictionary](https://github.com/meizhuixu/LeetCode/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0332-reconstruct-itinerary](https://github.com/meizhuixu/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [0417-pacific-atlantic-water-flow](https://github.com/meizhuixu/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/meizhuixu/LeetCode/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -640,6 +645,7 @@
 | [0261-graph-valid-tree](https://github.com/meizhuixu/leetcode/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/meizhuixu/LeetCode/tree/master/0269-alien-dictionary) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0332-reconstruct-itinerary](https://github.com/meizhuixu/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/meizhuixu/LeetCode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/meizhuixu/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -703,4 +709,8 @@
 |  |
 | ------- |
 | [1851-minimum-interval-to-include-each-query](https://github.com/meizhuixu/LeetCode/tree/master/1851-minimum-interval-to-include-each-query) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/meizhuixu/LeetCode/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
