@@ -1,40 +1,32 @@
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
-        # words = ["wrt","wrf","er","ett","rftt"]
-        # t: f
-        # w: e
-        # r: t
-        # e: r
-
-
         graph = {}
         indegree = {}
-
         for word in words:
             for chr in word:
                 graph[chr] = set()
                 indegree[chr] = 0
+        
 
         for i in range(len(words) - 1):
-            j = 0
-            while j < min(len(words[i]), len(words[i + 1])):
-                min_len = min(len(words[i]), len(words[i + 1]))
-                if len(words[i]) > len(words[i + 1]) and words[i][:min_len] == words[i + 1]:
-                    return ''
-                if words[i][j] != words[i + 1][j]:
-                    if words[i + 1][j] not in graph[words[i][j]]:
-                        graph[words[i][j]].add(words[i + 1][j])
-                        indegree[words[i + 1][j]] += 1
+            w1, w2 = words[i], words[i + 1]
+            min_len = min(len(w1), len(w2))
+
+            if len(w1) > len(w2) and w1[:min_len] == w2:
+                return ''
+
+            for j in range(min_len):
+                if w1[j] != w2[j]:
+                    if w2[j] not in graph[w1[j]]:
+                        graph[w1[j]].add(w2[j])
+                        indegree[w2[j]] += 1
                     break
-                else:
-                    j += 1
-        print(graph)
         print(indegree)
 
         queue = deque()
-        for key in graph:
-            if indegree[key] == 0:
-                queue.append(key)
+        for chr, num in indegree.items():
+            if num == 0:
+                queue.append(chr)
 
         res = []
         while queue:
@@ -46,13 +38,4 @@ class Solution:
                 if indegree[nei] == 0:
                     queue.append(nei)
 
-        return ''.join(res) if len(res) == len(graph) else ''
-
-        
-
-
-
-
-
-
-        
+        return ''.join(res) if len(res) == len(indegree) else ''
