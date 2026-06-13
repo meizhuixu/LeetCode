@@ -4,12 +4,15 @@ class Solution:
         total, lowest = 0, float('inf')
 
         for i in range(n):
-            total = total + gas[i] - cost[i]
+            total += gas[i] - cost[i]
 
             if total < lowest:
                 lowest = total
-                res = i
+                res = i + 1
 
-        return res + 1 if total >= 0 else -1
+        if total < 0:
+            return -1
+
+        return res if res < n else 0
 
         
