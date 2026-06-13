@@ -21,6 +21,7 @@
 | [0141-linked-list-cycle](https://github.com/meizhuixu/leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/meizhuixu/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/meizhuixu/LeetCode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/meizhuixu/LeetCode/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/meizhuixu/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
@@ -101,6 +102,7 @@
 | [0088-merge-sorted-array](https://github.com/meizhuixu/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/meizhuixu/leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/meizhuixu/leetcode/tree/master/0143-reorder-list) |
+| [0202-happy-number](https://github.com/meizhuixu/LeetCode/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/meizhuixu/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/meizhuixu/leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -294,6 +296,7 @@
 | [0062-unique-paths](https://github.com/meizhuixu/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/meizhuixu/LeetCode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0202-happy-number](https://github.com/meizhuixu/LeetCode/tree/master/0202-happy-number) |
 | [0279-perfect-squares](https://github.com/meizhuixu/LeetCode/tree/master/0279-perfect-squares) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
