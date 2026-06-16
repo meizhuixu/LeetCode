@@ -72,6 +72,7 @@
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/meizhuixu/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/meizhuixu/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/meizhuixu/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/meizhuixu/LeetCode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
@@ -220,6 +221,7 @@
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/meizhuixu/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/meizhuixu/LeetCode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
@@ -268,6 +270,7 @@
 | [0155-min-stack](https://github.com/meizhuixu/leetcode/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/meizhuixu/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
+| [0678-valid-parenthesis-string](https://github.com/meizhuixu/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/meizhuixu/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
@@ -579,6 +582,7 @@
 | [0518-coin-change-ii](https://github.com/meizhuixu/LeetCode/tree/master/0518-coin-change-ii) |
 | [0583-delete-operation-for-two-strings](https://github.com/meizhuixu/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/meizhuixu/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/meizhuixu/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/meizhuixu/LeetCode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0746-min-cost-climbing-stairs](https://github.com/meizhuixu/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/meizhuixu/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
