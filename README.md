@@ -33,6 +33,7 @@
 | [0763-partition-labels](https://github.com/meizhuixu/LeetCode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
+| [0904-fruit-into-baskets](https://github.com/meizhuixu/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
 | [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [2910-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/meizhuixu/LeetCode/tree/master/2910-minimum-number-of-groups-to-create-a-valid-assignment) |
@@ -89,6 +90,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/meizhuixu/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/meizhuixu/LeetCode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0904-fruit-into-baskets](https://github.com/meizhuixu/LeetCode/tree/master/0904-fruit-into-baskets) |
 ## Two Pointers
 |  |
 | ------- |
@@ -195,6 +197,7 @@
 | [0852-peak-index-in-a-mountain-array](https://github.com/meizhuixu/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/meizhuixu/leetcode/tree/master/0875-koko-eating-bananas) |
+| [0904-fruit-into-baskets](https://github.com/meizhuixu/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/meizhuixu/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
