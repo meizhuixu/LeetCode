@@ -13,12 +13,12 @@ class Solution:
             if nums[mid] == target:
                 return mid
 
-            if nums[mid] < nums[r]:
+            if nums[mid] <= nums[r]:
                 if nums[mid] < target <= nums[r]:
                     l = mid + 1
                 else:
                     r = mid - 1
-            elif nums[mid] >= nums[r]:
+            elif nums[mid] > nums[r]:
                 if nums[l] <= target < nums[mid]:
                     r = mid - 1
                 else:
