@@ -25,11 +25,8 @@ class Solution:
         build(root)
 
         # infection
-        queue = deque()
-        for nei in hashmap[start]:
-            queue.append(nei)
-
-        res = 0
+        queue = deque([start])
+        res = -1
         visited = set([start])
         while queue:
             length = len(queue)
@@ -43,10 +40,3 @@ class Solution:
                         queue.append(nei)
 
         return res
-
-
-
-
-            
-
-
