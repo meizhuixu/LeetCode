@@ -26,11 +26,11 @@ class Solution:
 
         # infection
         queue = deque([start])
-        res = -1
+        res = 0
         visited = set([start])
         while queue:
             length = len(queue)
-            res += 1
+            
             for _ in range(length):
                 cur = queue.popleft()
                 visited.add(cur)
@@ -38,5 +38,8 @@ class Solution:
                 for nei in hashmap[cur]:
                     if nei not in visited:
                         queue.append(nei)
+
+            if queue:
+                res += 1
 
         return res
