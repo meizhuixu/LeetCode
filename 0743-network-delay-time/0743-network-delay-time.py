@@ -5,18 +5,22 @@ class Solution:
         pq = []
         heapq.heappush(pq, (0, k))
 
-        # build graph
+        # build graph O(E)   E = V * V
         graph = defaultdict(list)
         for u, v, w in times:
             graph[u].append((w, v))
 
+        # O(ElogV)
         while pq:
             d, cur = heapq.heappop(pq)
+            if d > dist[cur]:
+                continue
+            
             for nxt_d, nei in graph[cur]:
                 if dist[nei] > d + nxt_d:
                     dist[nei] = d + nxt_d
                     heapq.heappush(pq, (dist[nei], nei))
-
+        # O(V)
         res = 0
         for i in range(1, n + 1):
             if dist[i] == float('inf'):
