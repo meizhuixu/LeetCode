@@ -11,12 +11,16 @@ class Solution:
                 path.append('(')
                 backtracking(l + 1, r, path)
                 path.pop()
+
             if r < l:
                 path.append(')')
                 backtracking(l, r + 1, path)
                 path.pop()
 
+
         backtracking(0, 0, [])
+
         return res
 
+            
         
