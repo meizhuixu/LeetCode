@@ -30,6 +30,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
+| [0694-number-of-distinct-islands](https://github.com/meizhuixu/LeetCode/tree/master/0694-number-of-distinct-islands) |
 | [0763-partition-labels](https://github.com/meizhuixu/LeetCode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
@@ -188,6 +189,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0674-longest-continuous-increasing-subsequence) |
+| [0694-number-of-distinct-islands](https://github.com/meizhuixu/LeetCode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/meizhuixu/leetcode/tree/master/0704-binary-search) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/meizhuixu/LeetCode/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -336,6 +338,7 @@
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
+| [0694-number-of-distinct-islands](https://github.com/meizhuixu/LeetCode/tree/master/0694-number-of-distinct-islands) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
@@ -376,6 +379,7 @@
 | [0286-walls-and-gates](https://github.com/meizhuixu/LeetCode/tree/master/0286-walls-and-gates) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0417-pacific-atlantic-water-flow](https://github.com/meizhuixu/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0694-number-of-distinct-islands](https://github.com/meizhuixu/LeetCode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [0778-swim-in-rising-water](https://github.com/meizhuixu/LeetCode/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
@@ -490,6 +494,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/meizhuixu/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
+| [0694-number-of-distinct-islands](https://github.com/meizhuixu/LeetCode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/meizhuixu/LeetCode/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/meizhuixu/LeetCode/tree/master/0778-swim-in-rising-water) |
@@ -555,6 +560,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/meizhuixu/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/meizhuixu/LeetCode/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
+| [0694-number-of-distinct-islands](https://github.com/meizhuixu/LeetCode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/meizhuixu/LeetCode/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/meizhuixu/LeetCode/tree/master/0778-swim-in-rising-water) |
@@ -612,6 +618,7 @@
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/meizhuixu/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0694-number-of-distinct-islands](https://github.com/meizhuixu/LeetCode/tree/master/0694-number-of-distinct-islands) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/meizhuixu/LeetCode/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Data Stream
 |  |
@@ -670,6 +677,7 @@
 | [0261-graph-valid-tree](https://github.com/meizhuixu/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/meizhuixu/leetcode/tree/master/0684-redundant-connection) |
+| [0694-number-of-distinct-islands](https://github.com/meizhuixu/LeetCode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
 | [0778-swim-in-rising-water](https://github.com/meizhuixu/LeetCode/tree/master/0778-swim-in-rising-water) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/meizhuixu/LeetCode/tree/master/1135-connecting-cities-with-minimum-cost) |
