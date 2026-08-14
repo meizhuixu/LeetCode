@@ -36,6 +36,7 @@
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
 | [0904-fruit-into-baskets](https://github.com/meizhuixu/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
+| [1654-minimum-jumps-to-reach-home](https://github.com/meizhuixu/LeetCode/tree/master/1654-minimum-jumps-to-reach-home) |
 | [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/meizhuixu/LeetCode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2910-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/meizhuixu/LeetCode/tree/master/2910-minimum-number-of-groups-to-create-a-valid-assignment) |
@@ -210,6 +211,7 @@
 | [1049-last-stone-weight-ii](https://github.com/meizhuixu/LeetCode/tree/master/1049-last-stone-weight-ii) |
 | [1584-min-cost-to-connect-all-points](https://github.com/meizhuixu/LeetCode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
+| [1654-minimum-jumps-to-reach-home](https://github.com/meizhuixu/LeetCode/tree/master/1654-minimum-jumps-to-reach-home) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/meizhuixu/LeetCode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/meizhuixu/LeetCode/tree/master/1899-merge-triplets-to-form-target-triplet) |
@@ -567,6 +569,7 @@
 | [0787-cheapest-flights-within-k-stops](https://github.com/meizhuixu/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
+| [1654-minimum-jumps-to-reach-home](https://github.com/meizhuixu/LeetCode/tree/master/1654-minimum-jumps-to-reach-home) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/meizhuixu/LeetCode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Dynamic Programming
 |  |
