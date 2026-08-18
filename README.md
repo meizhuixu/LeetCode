@@ -762,4 +762,8 @@
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/meizhuixu/LeetCode/tree/master/0332-reconstruct-itinerary) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
