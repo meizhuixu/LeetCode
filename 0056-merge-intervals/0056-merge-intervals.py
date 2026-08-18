@@ -1,27 +1,16 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        hashmap = defaultdict(int)
-        for s, e in intervals:
-            hashmap[s] += 1
-            hashmap[e] -= 1
-
-        count = 0
+        # time: O(nlogn); space: O(n)
+        intervals.sort()
         res = []
-        pair = []
-        for i in sorted(hashmap.keys()):
-            if not pair:
-                pair.append(i)
+        res.append(intervals[0])
 
-            count += hashmap[i]
-            if count == 0:
-                pair.append(i)
-                res.append(pair)
-                pair = []
+        for i in range(1, len(intervals)):
+            last_end = res[-1][1]
+            s, e = intervals[i]
+            if s > last_end:
+                res.append([s, e])
+            else:
+                res[-1][1] = max(e, last_end)
 
         return res
-
-
-
-        
-
-        
