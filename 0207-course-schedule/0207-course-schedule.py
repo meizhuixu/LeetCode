@@ -1,28 +1,29 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        # O(E); O(E + V)
-        course_map = defaultdict(list)
-        in_degree = [0] * numCourses
+        # dfs 
+        graph = defaultdict(list)
         for a, b in prerequisites:
-            course_map[b].append(a)
-            in_degree[a] += 1
+            graph[b].append(a)
 
-        # O(V); O(V)
-        queue = deque()
-        for c, num in enumerate(in_degree):
-            if num == 0:
-                queue.append(c)
+        visited = [0] * numCourses
+        # 0: unvisit   1: visiting   2: visited
+        # 0   1  2  3
+        def dfs(c):
+            if visited[c] == 1:
+                return False
+            if visited[c] == 2:
+                return True
 
-        # O(E + V); O(V)
-        count = 0
-        while queue:
-            cur = queue.popleft()
-            count += 1
+            visited[c] = 1
+            for nxt in graph[c]:
+                if not dfs(nxt):
+                    return False
+            visited[c] = 2
+            return True
 
-            for nei in course_map[cur]:
-                in_degree[nei] -= 1
-                if in_degree[nei] == 0:
-                    queue.append(nei)
 
-        # check circle
-        return count == numCourses
+        for i in range(numCourses):
+            if not dfs(i):
+                return False
+
+        return True
