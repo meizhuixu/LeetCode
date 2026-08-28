@@ -12,21 +12,20 @@ class Solution:
         if not node:
             return None
 
-        old_to_new = {node: Node(node.val)}
-        queue = deque([node])
+        hashmap = {}  # old: new
 
-        while queue:
-            cur = queue.popleft()
-            new = old_to_new[cur]
+        def dfs(node):
+            new = Node(node.val)
+            hashmap[node] = new
 
-            for nei in cur.neighbors:
-                if nei not in old_to_new:
-                    new_nei = Node(nei.val)
-                    old_to_new[nei] = new_nei
-                    queue.append(nei)
+            for nei in node.neighbors:
+                if nei in hashmap:
+                    new.neighbors.append(hashmap[nei])
+                else:
+                    new.neighbors.append(dfs(nei))
 
-                new.neighbors.append(old_to_new[nei])
+            return new
 
-        return old_to_new[node]
-
+        return dfs(node)
+        
         
