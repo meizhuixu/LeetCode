@@ -770,6 +770,7 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/meizhuixu/LeetCode/tree/master/0207-course-schedule) |
+| [0269-alien-dictionary](https://github.com/meizhuixu/LeetCode/tree/master/0269-alien-dictionary) |
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
