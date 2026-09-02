@@ -312,6 +312,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/meizhuixu/LeetCode/tree/master/0202-happy-number) |
 | [0279-perfect-squares](https://github.com/meizhuixu/LeetCode/tree/master/0279-perfect-squares) |
+| [0400-nth-digit](https://github.com/meizhuixu/LeetCode/tree/master/0400-nth-digit) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 ## Monotonic Stack
@@ -359,6 +360,7 @@
 | [0162-find-peak-element](https://github.com/meizhuixu/leetcode/tree/master/0162-find-peak-element) |
 | [0287-find-the-duplicate-number](https://github.com/meizhuixu/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0300-longest-increasing-subsequence) |
+| [0400-nth-digit](https://github.com/meizhuixu/LeetCode/tree/master/0400-nth-digit) |
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
 | [0704-binary-search](https://github.com/meizhuixu/leetcode/tree/master/0704-binary-search) |
