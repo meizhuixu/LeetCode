@@ -27,6 +27,7 @@
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/meizhuixu/leetcode/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/meizhuixu/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0432-all-oone-data-structure](https://github.com/meizhuixu/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
@@ -296,6 +297,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/meizhuixu/leetcode/tree/master/0355-design-twitter) |
+| [0432-all-oone-data-structure](https://github.com/meizhuixu/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/meizhuixu/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Math
@@ -405,6 +407,7 @@
 | [0206-reverse-linked-list](https://github.com/meizhuixu/leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/meizhuixu/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0355-design-twitter](https://github.com/meizhuixu/leetcode/tree/master/0355-design-twitter) |
+| [0432-all-oone-data-structure](https://github.com/meizhuixu/LeetCode/tree/master/0432-all-oone-data-structure) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -434,6 +437,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/meizhuixu/leetcode/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/meizhuixu/LeetCode/tree/master/0432-all-oone-data-structure) |
 ## Bit Manipulation
 |  |
 | ------- |
