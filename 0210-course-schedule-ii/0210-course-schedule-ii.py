@@ -1,28 +1,33 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        # build graph and indegree
-        in_degree = [0] * numCourses
-        course_map = defaultdict(list)
+        graph = defaultdict(list)
         for a, b in prerequisites:
-            in_degree[a] += 1
-            course_map[b].append(a)
+            graph[b].append(a)
 
-        # find all course without prerequisites
-        queue = deque()
-        for c, count in enumerate(in_degree):
-            if count == 0:
-                queue.append(c)
-
-
-        # bfs: take all courses without prerequisites, neighbors indegree decrement by 1, if indegree == 0, put them into queue
+        path = [0] * numCourses  # 0: unvisited  1: visiting  2: visited
         res = []
-        while queue:
-            cur = queue.popleft()
-            res.append(cur)
+        def dfs(course):
+            if path[course] == 1:
+                return False
+            if path[course] == 2:
+                return True
 
-            for nei in course_map[cur]:
-                in_degree[nei] -= 1
-                if in_degree[nei] == 0:
-                    queue.append(nei)
+            path[course] = 1
+            for nxt in graph[course]:
+                if not dfs(nxt):
+                    return False
 
-        return res if len(res) == numCourses else []
+            path[course] = 2  # 一开始漏写了
+            res.append(course)
+            return True
+
+        for i in range(numCourses):
+            if path[i] == 0:
+                if not dfs(i):
+
+                    return []
+
+        return res[::-1]
+
+        
+        
