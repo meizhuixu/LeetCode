@@ -1,21 +1,21 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        # build graph and indegree
-        graph = defaultdict(list)  #  from: [to]
-        indegree = defaultdict(int) # course: num
+        # build graph and indegree  time O(E)
+        graph = defaultdict(list)  #  from: [to]   space O(V + E)
+        indegree = defaultdict(int) # course: num    space O(V)
         for a, b in prerequisites:
             graph[b].append(a)
             indegree[a] += 1
 
-        # find all courses without indegree
-        queue = deque()
+        # find all courses without indegree  time O(V)
+        queue = deque()   # space O(V)
         for i in range(numCourses):
             if indegree[i] == 0:
                 queue.append(i)
 
-        # bfs
+        # bfs  time O(V + E)
         count = 0
-        while queue:
+        while queue: 
             curr = queue.popleft()
             count += 1
 
