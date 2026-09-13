@@ -1,30 +1,30 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        # build graph and indegree  time O(E)
-        graph = defaultdict(list)  #  from: [to]   space O(V + E)
-        indegree = defaultdict(int) # course: num    space O(V)
+        # dfs: no cycle
+        # build graph
+        graph = defaultdict(list)
         for a, b in prerequisites:
             graph[b].append(a)
-            indegree[a] += 1
 
-        # find all courses without indegree  time O(V)
-        queue = deque()   # space O(V)
+        def dfs(course, path):
+            if path[course] == 1:
+                return False
+            
+            path[course] = 1
+            for nxt in graph[course]:
+                if path[nxt] == 2:
+                    continue
+                if not dfs(nxt, path):
+                    return False
+            path[course] = 2
+
+            return True
+
+        path = [0] * numCourses # 0:unvisited  1: visiting  2: visited
         for i in range(numCourses):
-            if indegree[i] == 0:
-                queue.append(i)
+            if not dfs(i, path):
+                return False
 
-        # bfs  time O(V + E)
-        count = 0
-        while queue: 
-            curr = queue.popleft()
-            count += 1
+        return True
 
-            for nei in graph[curr]:
-                indegree[nei] -= 1
-                if indegree[nei] == 0:
-                    queue.append(nei)
-
-        return count == numCourses
-
-
-
+        
