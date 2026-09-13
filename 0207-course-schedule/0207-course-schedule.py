@@ -22,8 +22,9 @@ class Solution:
 
         path = [0] * numCourses # 0:unvisited  1: visiting  2: visited
         for i in range(numCourses):
-            if not dfs(i, path):
-                return False
+            if path[i] == 0:
+                if not dfs(i, path):
+                    return False
 
         return True
 
