@@ -6,28 +6,23 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
-        # edge case: empty tree
-        seen_sum = defaultdict(int)
-        seen_sum[0] += 1
-        self.count = 0
-        
-        def dfs(node, curr_sum):
+        # edge case: empty
+        hashmap = defaultdict(int) # sum: freq
+        hashmap[0] = 1
+        self.res = 0
+
+        def backtracking(node, total):
             if not node:
                 return
 
-            curr_sum += node.val
-            # if curr_sum == targetSum:
-            #     self.count += 1
-            diff = curr_sum - targetSum
-            self.count += seen_sum[diff]
+            total += node.val
+            self.res += hashmap[total - targetSum]
 
-            seen_sum[curr_sum] += 1
-            dfs(node.left, curr_sum)
-            dfs(node.right, curr_sum)
-            seen_sum[curr_sum] -= 1
-
+            hashmap[total] += 1
+            backtracking(node.left, total)
+            backtracking(node.right, total)
+            hashmap[total] -= 1
         
-        dfs(root, 0)
-        return self.count
-        
+        backtracking(root, 0)
+        return self.res
         
