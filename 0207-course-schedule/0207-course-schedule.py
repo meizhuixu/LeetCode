@@ -9,11 +9,11 @@ class Solution:
         def dfs(course, path):
             if path[course] == 1:
                 return False
+            if path[course] == 2:
+                return True
             
             path[course] = 1
             for nxt in graph[course]:
-                if path[nxt] == 2:
-                    continue
                 if not dfs(nxt, path):
                     return False
             path[course] = 2
