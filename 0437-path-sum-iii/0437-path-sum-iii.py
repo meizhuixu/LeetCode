@@ -7,7 +7,7 @@
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
         # edge case: empty
-        hashmap = defaultdict(int) # sum: freq
+        hashmap = {} # sum: freq
         hashmap[0] = 1
         self.res = 0
 
@@ -16,9 +16,9 @@ class Solution:
                 return
 
             total += node.val
-            self.res += hashmap[total - targetSum]
+            self.res += hashmap.get(total - targetSum, 0)
 
-            hashmap[total] += 1
+            hashmap[total] = hashmap.get(total, 0) + 1
             backtracking(node.left, total)
             backtracking(node.right, total)
             hashmap[total] -= 1
