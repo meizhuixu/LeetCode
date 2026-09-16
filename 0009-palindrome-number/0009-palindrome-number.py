@@ -3,13 +3,10 @@ class Solution:
         if x < 0:
             return False
 
-        x_str = str(x)
-        y_str = x_str[::-1]
+        prev, new = x, 0
+        while x > 0:
+            new = new * 10 + x % 10
+            x //= 10
 
-        return x_str == y_str
-
-
-
-            
-
+        return new == prev
         
