@@ -11,10 +11,10 @@ class Solution:
             if num - 1 in nums:
                 continue
             
-            length = 0
-            while num in nums:
+            length, curr = 0, num
+            while curr in nums:
                 length += 1
-                num += 1
+                curr += 1
             res = max(res, length)
 
         return res
