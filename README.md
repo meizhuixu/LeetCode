@@ -781,4 +781,8 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/LeetCode/tree/master/0239-sliding-window-maximum) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/meizhuixu/LeetCode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
