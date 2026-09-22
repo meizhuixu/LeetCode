@@ -1,14 +1,24 @@
 class Solution:
     def reverse(self, x: int) -> int:
-        mark = 1 if x > 0 else -1
-        x = abs(x)
+        # digit:   log(10) n
+        # string: time O(logn)  space O(logn)
+        # no string: time O(logn)  space O(1)
+        # x = 0
+        # y = 321
+        # negative
 
-        res = 0
-        while x != 0:
-            temp = x % 10
-            res = res * 10 + temp
-            if res >= 2 ** 31:
-                return 0
+        carry = 1
+        if x < 0:
+            x = -x
+            carry = -1
+
+        y = 0
+        while x > 0:
+            y = y * 10 + x % 10
             x //= 10
 
-        return res * mark
+        res = y * carry
+        return res if - 2 ** 31 <= res < 2 ** 31 else 0
+
+
+        
