@@ -1,26 +1,28 @@
 class Solution:
-    def generateParenthesis(self, n: int) -> List[str]:
-        res = []
-
-        def backtracking(l, r, path):
-            if l == r == n:
+    def generateParenthesis(self, n: int) -> list[str]:
+        # generate
+        # left: left <= n
+        # right: right <= left
+        # backtracking
+        
+        # time O(2^n)   space  O(n)
+        
+        def backtracking(path, left, right):
+            if left == right == n:
                 res.append(''.join(path))
                 return
-
-            if l < n:
+                
+            if left < n:
                 path.append('(')
-                backtracking(l + 1, r, path)
+                backtracking(path, left + 1, right)
                 path.pop()
-
-            if r < l:
+            if right < left:
                 path.append(')')
-                backtracking(l, r + 1, path)
+                backtracking(path, left, right + 1)
                 path.pop()
-
-
-        backtracking(0, 0, [])
-
-        return res
-
             
+        res = []
+        backtracking([], 0, 0)
+        
+        return res
         
