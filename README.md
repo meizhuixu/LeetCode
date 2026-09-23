@@ -785,4 +785,8 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/meizhuixu/LeetCode/tree/master/0005-longest-palindromic-substring) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
