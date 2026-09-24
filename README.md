@@ -203,6 +203,7 @@
 | [0852-peak-index-in-a-mountain-array](https://github.com/meizhuixu/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/meizhuixu/leetcode/tree/master/0875-koko-eating-bananas) |
+| [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 | [0904-fruit-into-baskets](https://github.com/meizhuixu/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
@@ -315,6 +316,7 @@
 | [0202-happy-number](https://github.com/meizhuixu/LeetCode/tree/master/0202-happy-number) |
 | [0279-perfect-squares](https://github.com/meizhuixu/LeetCode/tree/master/0279-perfect-squares) |
 | [0400-nth-digit](https://github.com/meizhuixu/LeetCode/tree/master/0400-nth-digit) |
+| [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 ## Monotonic Stack
@@ -615,6 +617,7 @@
 | [0718-maximum-length-of-repeated-subarray](https://github.com/meizhuixu/LeetCode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0746-min-cost-climbing-stairs](https://github.com/meizhuixu/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/meizhuixu/LeetCode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 | [1035-uncrossed-lines](https://github.com/meizhuixu/LeetCode/tree/master/1035-uncrossed-lines) |
 | [1049-last-stone-weight-ii](https://github.com/meizhuixu/LeetCode/tree/master/1049-last-stone-weight-ii) |
 | [1143-longest-common-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/1143-longest-common-subsequence) |
@@ -789,4 +792,16 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0022-generate-parentheses) |
+## Minimax
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
