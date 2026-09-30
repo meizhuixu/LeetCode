@@ -9,13 +9,11 @@ class Solution:
         # 1,2  -> 2
         # 1,2,3  -> 2
         # 1,2,3,4  -> 3
-        slow, fast = head, head.next
+        slow, fast = head, head
 
-        while slow and fast:
+        while fast and fast.next:
             slow = slow.next
-            fast = fast.next
-            if fast:
-                fast = fast.next
+            fast = fast.next.next
 
         return slow
 
