@@ -7,15 +7,10 @@ class Solution:
 
         # n = 1,000,003
 
-        if n < 1000:
-            return 0
+        start, total = 1000, 0
 
-        comma, start, total = 1, 1000, 0
-        while n >= start * 1000:
-            total += comma * 999 * (1000 ** comma)  # 999,000
-            comma += 1   # 2
-            start *= 1000  # 1,000,000
+        while start <= n:
+            total += n - start + 1
+            start *= 1000
 
-        total += (n - start + 1) * comma
         return total
-        
