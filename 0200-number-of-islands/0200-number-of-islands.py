@@ -19,6 +19,7 @@ class Solution:
             for j in range(n):
                 if grid[i][j] == '1':
                     res += 1
+                    grid[i][j] = '0'
                     bfs(i, j)
 
         return res
