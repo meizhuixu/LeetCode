@@ -1,16 +1,20 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
+        # time O(m*n)  space O(m*n)
+
         m, n = len(grid), len(grid[0])
+        directions = ((1, 0), (-1, 0), (0, 1), (0, -1))
+        res = 0
 
         def dfs(x, y):
-            if x < 0 or x >= m or y < 0 or y >= n or grid[x][y] == '0':
+            if x < 0 or x >= m or y < 0 or y >= n or grid[x][y] != '1':
                 return
 
             grid[x][y] = '0'
-            for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
-                dfs(x + dx, y + dy)
+            for dx, dy in directions:
+                nx, ny = x + dx, y + dy
+                dfs(nx, ny)
 
-        res = 0
         for i in range(m):
             for j in range(n):
                 if grid[i][j] == '1':
