@@ -1,19 +1,25 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
+        # two pointers
+        # time O(n)  space O(1)
+        # edge case: n = 1
+        left, right = 0, len(height) - 1
+        left_max, right_max = height[0], height[-1]
         res = 0
-        l, r = 0, len(height) - 1
-        max_l, max_r = 0, 0
 
-        while l <= r:
-            if max_l < max_r:
-                max_l = max(max_l, height[l])
-                res += max_l - height[l]
-                l += 1
+        while left < right:  # =?
+            if left_max <= right_max:
+                left += 1
+                left_max = max(left_max, height[left])
+                res += left_max - height[left]
             else:
-                max_r = max(max_r, height[r])
-                res += max_r - height[r]
-                r -= 1
+                right -= 1
+                right_max = max(right_max, height[right])
+                res += right_max - height[right]
 
         return res
+                
+
+
 
         
