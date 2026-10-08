@@ -1,15 +1,12 @@
 class Solution:
     def predictTheWinner(self, nums: list[int]) -> bool:
         n = len(nums)
-        dp = [[0] * n for _ in range(n)]
+        dp = nums[:]
 
-        for i in range(n):
-            dp[i][i] = nums[i]
-
-        for i in range(n-1, -1, -1):
+        for i in range(n-2, -1, -1):
             for j in range(i + 1, n):
-                dp[i][j] = max(nums[i] - dp[i+1][j], nums[j] - dp[i][j-1])
+                dp[j] = max(nums[i] - dp[j], nums[j] - dp[j-1])
 
-        return dp[0][-1] >= 0
+        return dp[-1] >= 0
 
         
