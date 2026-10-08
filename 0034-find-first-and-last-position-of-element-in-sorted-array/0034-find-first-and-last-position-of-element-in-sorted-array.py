@@ -1,20 +1,28 @@
 class Solution:
-    def searchRange(self, nums: List[int], target: int) -> List[int]:
-        n = len(nums)
-        def searchfirst(target):
-            l, r = 0, n - 1
+    def searchRange(self, nums: list[int], target: int) -> list[int]:
+        # edge case: empty nums;  not found
+        if not nums:
+            return [-1, -1]
 
+        def searchInsertPosition(nums, target):
+            res, l, r = len(nums), 0, len(nums) - 1
             while l <= r:
                 mid = (l + r) // 2
                 if nums[mid] >= target:
+                    res = mid
                     r = mid - 1
                 else:
                     l = mid + 1
 
-            return l
+            return res
 
-        first = searchfirst(target)
-        last = searchfirst(target + 1) - 1
-        if first == n or nums[first] != target:
+        first = searchInsertPosition(nums, target)
+        if first >= len(nums) or nums[first] != target:
             return [-1, -1]
-        return [first, last]
+
+        last = searchInsertPosition(nums, target + 1) - 1
+        return [first, last] 
+
+
+
+        
