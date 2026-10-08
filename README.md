@@ -190,6 +190,7 @@
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
 | [0474-ones-and-zeroes](https://github.com/meizhuixu/LeetCode/tree/master/0474-ones-and-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/meizhuixu/LeetCode/tree/master/0485-max-consecutive-ones) |
+| [0486-predict-the-winner](https://github.com/meizhuixu/LeetCode/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/meizhuixu/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/meizhuixu/LeetCode/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -321,6 +322,7 @@
 | [0202-happy-number](https://github.com/meizhuixu/LeetCode/tree/master/0202-happy-number) |
 | [0279-perfect-squares](https://github.com/meizhuixu/LeetCode/tree/master/0279-perfect-squares) |
 | [0400-nth-digit](https://github.com/meizhuixu/LeetCode/tree/master/0400-nth-digit) |
+| [0486-predict-the-winner](https://github.com/meizhuixu/LeetCode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
@@ -444,6 +446,7 @@
 | [0143-reorder-list](https://github.com/meizhuixu/leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/meizhuixu/leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/meizhuixu/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0486-predict-the-winner](https://github.com/meizhuixu/LeetCode/tree/master/0486-predict-the-winner) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -619,6 +622,7 @@
 | [0416-partition-equal-subset-sum](https://github.com/meizhuixu/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/meizhuixu/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/meizhuixu/LeetCode/tree/master/0474-ones-and-zeroes) |
+| [0486-predict-the-winner](https://github.com/meizhuixu/LeetCode/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/meizhuixu/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/meizhuixu/LeetCode/tree/master/0518-coin-change-ii) |
@@ -807,13 +811,16 @@
 ## Minimax
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/meizhuixu/LeetCode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 ## Game Theory
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/meizhuixu/LeetCode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 ## Zero-Sum Game
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/meizhuixu/LeetCode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
