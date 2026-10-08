@@ -1,27 +1,29 @@
 class Solution:
     def searchRange(self, nums: list[int], target: int) -> list[int]:
-        # edge case: empty nums;  not found
-        if not nums:
+        l, r = 0, len(nums) - 1
+        while l <= r:
+            mid = (l + r) // 2
+            if nums[mid] >= target:
+                r = mid - 1
+            else:
+                l = mid + 1
+
+        if l == len(nums) or nums[l] != target:
             return [-1, -1]
 
-        def searchInsertPosition(nums, target):
-            l, r = 0, len(nums) - 1
-            while l <= r:
-                mid = (l + r) // 2
-                if nums[mid] >= target:
-                    r = mid - 1
-                else:
-                    l = mid + 1
+        left_boundary = l
 
-            return l
+        l, r = 0, len(nums) - 1
+        while l <= r:
+            mid = (l + r) // 2
+            if nums[mid] <= target:
+                l = mid + 1
+            else:
+                r = mid - 1
 
-        first = searchInsertPosition(nums, target)
-        if first >= len(nums) or nums[first] != target:  # if not found (first == len(nums))
-            return [-1, -1]
+        right_boundary = r
 
-        last = searchInsertPosition(nums, target + 1) - 1  # must found
-        return [first, last] 
+        return [left_boundary, right_boundary]
 
-
-
+        
         
