@@ -832,5 +832,6 @@
 ## Longest Increasing Subsequence
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/meizhuixu/LeetCode/tree/master/0354-russian-doll-envelopes) |
 <!---LeetCode Topics End-->
