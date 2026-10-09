@@ -325,6 +325,7 @@
 | [0279-perfect-squares](https://github.com/meizhuixu/LeetCode/tree/master/0279-perfect-squares) |
 | [0400-nth-digit](https://github.com/meizhuixu/LeetCode/tree/master/0400-nth-digit) |
 | [0486-predict-the-winner](https://github.com/meizhuixu/LeetCode/tree/master/0486-predict-the-winner) |
+| [0793-preimage-size-of-factorial-zeroes-function](https://github.com/meizhuixu/LeetCode/tree/master/0793-preimage-size-of-factorial-zeroes-function) |
 | [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
@@ -385,6 +386,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/meizhuixu/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/meizhuixu/LeetCode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0778-swim-in-rising-water](https://github.com/meizhuixu/LeetCode/tree/master/0778-swim-in-rising-water) |
+| [0793-preimage-size-of-factorial-zeroes-function](https://github.com/meizhuixu/LeetCode/tree/master/0793-preimage-size-of-factorial-zeroes-function) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/meizhuixu/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/meizhuixu/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
