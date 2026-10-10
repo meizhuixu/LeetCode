@@ -1,36 +1,28 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        # permutation:sliding window
-        # s1 = "ab", s2 = "eidbaooo"
-        #                     lr
-        # seen = {b: 1, a: 1 }
-        # match = 2
-        # match == target: True
-        # time: O(n)
-        # space: O(1)
+        m, n = len(s1), len(s2)
+        if m > n:
+            return False
 
-        window = defaultdict(int)
         need = Counter(s1)
-        target = len(need)
-        count = l = 0
+        seen = defaultdict(int)
+        l = matched = 0
 
-        for r in range(len(s2)):
-            char = s2[r]
-            if char in need:
-                window[char] += 1
-                if window[char] == need[char]:
-                    count += 1
+        for r in range(n):
+            if s2[r] in need:
+                seen[s2[r]] += 1
+                if seen[s2[r]] == need[s2[r]]:
+                    matched += 1
 
             if r - l + 1 > len(s1):
-                drop = s2[l]
-                if drop in need:
-                    if window[drop] == need[drop]:
-                        count -= 1
-                    window[drop] -= 1
-
+                if s2[l] in need:
+                    if seen[s2[l]] == need[s2[l]]:
+                        matched -= 1
+                    seen[s2[l]] -= 1
                 l += 1
 
-            if r - l + 1 == len(s1) and count == target:
+            if matched == len(need):
                 return True
 
         return False
+        
