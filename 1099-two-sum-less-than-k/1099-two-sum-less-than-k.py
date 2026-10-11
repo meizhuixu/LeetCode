@@ -7,8 +7,7 @@ class Solution:
         while l < r:
             total = nums[l] + nums[r]
             if total < k:
-                if k - total < k - res:
-                    res = total
+                res = max(res, total)
                 l += 1
             else:
                 r -= 1
