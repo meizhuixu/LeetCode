@@ -127,6 +127,7 @@
 | [0647-palindromic-substrings](https://github.com/meizhuixu/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0763-partition-labels](https://github.com/meizhuixu/LeetCode/tree/master/0763-partition-labels) |
 | [0876-middle-of-the-linked-list](https://github.com/meizhuixu/LeetCode/tree/master/0876-middle-of-the-linked-list) |
+| [0986-interval-list-intersections](https://github.com/meizhuixu/LeetCode/tree/master/0986-interval-list-intersections) |
 | [1099-two-sum-less-than-k](https://github.com/meizhuixu/LeetCode/tree/master/1099-two-sum-less-than-k) |
 ## Array
 |  |
@@ -226,6 +227,7 @@
 | [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 | [0904-fruit-into-baskets](https://github.com/meizhuixu/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [0986-interval-list-intersections](https://github.com/meizhuixu/LeetCode/tree/master/0986-interval-list-intersections) |
 | [0994-rotting-oranges](https://github.com/meizhuixu/leetcode/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/meizhuixu/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1035-uncrossed-lines](https://github.com/meizhuixu/LeetCode/tree/master/1035-uncrossed-lines) |
@@ -806,6 +808,7 @@
 ## Sweep Line
 |  |
 | ------- |
+| [0986-interval-list-intersections](https://github.com/meizhuixu/LeetCode/tree/master/0986-interval-list-intersections) |
 | [1851-minimum-interval-to-include-each-query](https://github.com/meizhuixu/LeetCode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Eulerian Circuit
 |  |
