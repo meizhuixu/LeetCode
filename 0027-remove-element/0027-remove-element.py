@@ -4,12 +4,11 @@ class Solution:
         if val > 50:
             return len(nums)
 
-        l, r = 0, len(nums) - 1
-        while l <= r:
-            if nums[l] == val:
-                nums[l] = nums[r]
-                r -= 1
-            else:
-                l += 1
+        slow = fast = 0
+        while fast < len(nums):
+            if nums[fast] != val:
+                nums[slow] = nums[fast]
+                slow += 1
+            fast += 1
 
-        return l
+        return slow
