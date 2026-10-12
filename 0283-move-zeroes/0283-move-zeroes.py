@@ -6,6 +6,10 @@ class Solution:
         slow = fast = 0
         while fast < len(nums):
             if nums[fast] != 0:
-                nums[fast], nums[slow] = nums[slow], nums[fast]
+                nums[slow] = nums[fast]
                 slow += 1
             fast += 1
+
+        while slow < len(nums):
+            nums[slow] = 0
+            slow += 1
