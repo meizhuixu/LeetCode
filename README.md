@@ -826,6 +826,7 @@
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/meizhuixu/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/LeetCode/tree/master/0239-sliding-window-maximum) |
 ## Manacher
 |  |
