@@ -5,17 +5,13 @@ class Solution:
         n = len(nums)
 
         for i in range(n - 2):
-            for j in range(i + 1, n - 1):
-                k = j + 1
-                while k < n:
-                    total = nums[i] + nums[j] + nums[k]
-                    if total >= target:
-                        break
-                    else:
-                        res += 1
-                        k += 1
+            j, k = i + 1, n - 1
+            while j < k:
+                total = nums[i] + nums[j] + nums[k]
+                if  total < target:
+                    res += k - j
+                    j += 1
+                else:
+                    k -= 1
 
         return res
-        
-
-        
