@@ -126,6 +126,7 @@
 | [0567-permutation-in-string](https://github.com/meizhuixu/leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/meizhuixu/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0763-partition-labels](https://github.com/meizhuixu/LeetCode/tree/master/0763-partition-labels) |
+| [0870-advantage-shuffle](https://github.com/meizhuixu/LeetCode/tree/master/0870-advantage-shuffle) |
 | [0876-middle-of-the-linked-list](https://github.com/meizhuixu/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [0986-interval-list-intersections](https://github.com/meizhuixu/LeetCode/tree/master/0986-interval-list-intersections) |
 | [1099-two-sum-less-than-k](https://github.com/meizhuixu/LeetCode/tree/master/1099-two-sum-less-than-k) |
@@ -223,6 +224,7 @@
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/meizhuixu/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
+| [0870-advantage-shuffle](https://github.com/meizhuixu/LeetCode/tree/master/0870-advantage-shuffle) |
 | [0875-koko-eating-bananas](https://github.com/meizhuixu/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/meizhuixu/LeetCode/tree/master/0877-stone-game) |
 | [0904-fruit-into-baskets](https://github.com/meizhuixu/LeetCode/tree/master/0904-fruit-into-baskets) |
@@ -259,6 +261,7 @@
 | [0763-partition-labels](https://github.com/meizhuixu/LeetCode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
+| [0870-advantage-shuffle](https://github.com/meizhuixu/LeetCode/tree/master/0870-advantage-shuffle) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/meizhuixu/LeetCode/tree/master/1899-merge-triplets-to-form-target-triplet) |
@@ -378,6 +381,7 @@
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
+| [0870-advantage-shuffle](https://github.com/meizhuixu/LeetCode/tree/master/0870-advantage-shuffle) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1099-two-sum-less-than-k](https://github.com/meizhuixu/LeetCode/tree/master/1099-two-sum-less-than-k) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
