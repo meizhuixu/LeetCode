@@ -19,7 +19,9 @@ class Solution:
             slow = slow.next
 
         # remove slow.next
-        slow.next = slow.next.next
+        temp = slow.next
+        slow.next = temp.next
+        temp.next = None
         return dummy.next
 
         
