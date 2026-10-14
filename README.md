@@ -864,4 +864,8 @@
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/meizhuixu/LeetCode/tree/master/0354-russian-doll-envelopes) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/meizhuixu/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
