@@ -850,6 +850,7 @@
 ## Bracket Sequences
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0022-generate-parentheses) |
 ## Minimax
 |  |
