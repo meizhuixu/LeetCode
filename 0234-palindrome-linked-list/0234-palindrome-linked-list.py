@@ -6,6 +6,7 @@
 class Solution:
     def isPalindrome(self, head: ListNode | None) -> bool:
         # edge case: 1 node, 2 nodes, 3 nodes
+
         # find mid point and split
         slow = fast = head
         while fast and fast.next and fast.next.next:
@@ -15,17 +16,14 @@ class Solution:
         slow.next = None
 
         # reverse the right half
-        if head_r:
-            prev, curr = head_r, head_r.next
-            head_r.next = None
-            while prev and curr:
-                temp = curr.next
-                curr.next = prev
-                prev, curr = curr, temp
-            head_r = prev
+        prev, curr = None, head_r
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev, curr = curr, temp
 
         # check vals
-        p1, p2 = head, head_r
+        p1, p2 = head, prev
         while p1 and p2:
             if p1.val != p2.val:
                 return False
@@ -33,3 +31,9 @@ class Solution:
             p2 = p2.next
 
         return True
+
+
+
+
+
+        
