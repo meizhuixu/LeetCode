@@ -4,30 +4,20 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        # find cut point
-        slow = fast = dummy = ListNode(next = head)
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
+    def isPalindrome(self, head: ListNode | None) -> bool:
+        nums = []
+        p = head
+        while p:
+            nums.append(p.val)
+            p = p.next
 
-        # reverse the right half
-        if slow.next and slow.next.next:
-            pre, cur, nxt = slow, slow.next.next, slow.next
-            nxt.next = None
-            while cur:
-                temp = cur.next
-                pre.next = cur
-                cur.next = nxt
-                cur, nxt = temp, cur
-
-        p1, p2 = head, slow.next
-        while p1 and p2:
-            if p1.val != p2.val:
+        l, r = 0, len(nums) - 1
+        while l < r:
+            if nums[l] != nums[r]:
                 return False
-            p1, p2 = p1.next, p2.next
+            l += 1
+            r -= 1
 
         return True
 
-        
         
