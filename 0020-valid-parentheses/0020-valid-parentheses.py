@@ -1,15 +1,25 @@
 class Solution:
     def isValid(self, s: str) -> bool:
+        # stack 
+        # stack = []
+        # hashmap = {')': '('}
+
+        # time: O(n)
+        # space: O(n)
+
         stack = []
-        pairs = {')': '(', '}': '{', ']': '['}
+        hashmap = {')': '(', '}': '{', ']': '['}
 
-        for p in s:
-            if p in pairs:
-                if stack and stack[-1] == pairs[p]:
-                    stack.pop()
-                else:
+        for b in s:
+            if stack and b in hashmap:
+                if stack[-1] != hashmap[b]:
                     return False
-            else:
-                stack.append(p)
+                stack.pop()
 
-        return False if stack else True
+            else:
+                stack.append(b)
+
+        return not stack
+            
+                
+
