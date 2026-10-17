@@ -89,6 +89,7 @@
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/meizhuixu/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1143-longest-common-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/meizhuixu/LeetCode/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/meizhuixu/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1980-find-unique-binary-string](https://github.com/meizhuixu/LeetCode/tree/master/1980-find-unique-binary-string) |
 ## Sliding Window
 |  |
@@ -275,6 +276,7 @@
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
 | [0870-advantage-shuffle](https://github.com/meizhuixu/LeetCode/tree/master/0870-advantage-shuffle) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/meizhuixu/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/meizhuixu/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/meizhuixu/LeetCode/tree/master/1899-merge-triplets-to-form-target-triplet) |
@@ -328,6 +330,7 @@
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/meizhuixu/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/meizhuixu/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/meizhuixu/LeetCode/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/meizhuixu/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 ## Design
 |  |
 | ------- |
@@ -872,6 +875,7 @@
 | [0020-valid-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0022-generate-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/meizhuixu/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/meizhuixu/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 ## Minimax
 |  |
 | ------- |
