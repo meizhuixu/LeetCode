@@ -207,6 +207,7 @@
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0354-russian-doll-envelopes](https://github.com/meizhuixu/LeetCode/tree/master/0354-russian-doll-envelopes) |
+| [0370-range-addition](https://github.com/meizhuixu/LeetCode/tree/master/0370-range-addition) |
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/meizhuixu/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/meizhuixu/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -792,6 +793,7 @@
 | [0253-meeting-rooms-ii](https://github.com/meizhuixu/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/meizhuixu/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/meizhuixu/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
+| [0370-range-addition](https://github.com/meizhuixu/LeetCode/tree/master/0370-range-addition) |
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/meizhuixu/LeetCode/tree/master/0713-subarray-product-less-than-k) |
