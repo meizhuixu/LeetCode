@@ -1,16 +1,15 @@
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
-        stack = []
+        res = left = 0
 
-        res = 0
         for chr in s:
             if chr == ')':
-                if stack:
-                    stack.pop()
+                if left > 0:
+                    left -= 1
                 else:
                     res += 1
             else:
-                stack.append(chr)
+                left += 1
 
-        return res + len(stack)
+        return res + left
         
