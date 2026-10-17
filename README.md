@@ -874,6 +874,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0022-generate-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/meizhuixu/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/meizhuixu/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/meizhuixu/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 ## Minimax
