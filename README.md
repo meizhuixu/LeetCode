@@ -84,6 +84,7 @@
 | [0678-valid-parenthesis-string](https://github.com/meizhuixu/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0763-partition-labels](https://github.com/meizhuixu/LeetCode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/meizhuixu/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/meizhuixu/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1143-longest-common-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/1143-longest-common-subsequence) |
@@ -273,6 +274,7 @@
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
 | [0870-advantage-shuffle](https://github.com/meizhuixu/LeetCode/tree/master/0870-advantage-shuffle) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/meizhuixu/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1648-sell-diminishing-valued-colored-balls](https://github.com/meizhuixu/leetcode/tree/master/1648-sell-diminishing-valued-colored-balls) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/meizhuixu/LeetCode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/meizhuixu/LeetCode/tree/master/1899-merge-triplets-to-form-target-triplet) |
@@ -323,6 +325,7 @@
 | [0735-asteroid-collision](https://github.com/meizhuixu/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/meizhuixu/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/meizhuixu/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/meizhuixu/LeetCode/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 ## Design
@@ -868,6 +871,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/meizhuixu/LeetCode/tree/master/0022-generate-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/meizhuixu/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Minimax
 |  |
 | ------- |
