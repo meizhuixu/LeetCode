@@ -8,7 +8,7 @@ class Solution:
             if c == ')':
                 need_r -= 1
                 if need_r < 0:
-                    res += 1
-                    need_r = 0
+                    res += 1  # add '('
+                    need_r = 0  # reset 
 
         return res + need_r
