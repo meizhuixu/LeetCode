@@ -1,27 +1,22 @@
 class Solution:
     def checkValidString(self, s: str) -> bool:
-        # left to right, '*' as '('
-        need_r = 0
+        need_r_min = need_r_max = 0
+
         for c in s:
-            if c == ')':
-                need_r -= 1
-            else:
-                need_r += 1
-
-            if need_r < 0:
-                return False
-
-        need_l = 0
-        for c in s[::-1]:
             if c == '(':
-                need_l -= 1
-            else:
-                need_l += 1
+                need_r_min += 1
+                need_r_max += 1
+            if c == ')':
+                need_r_min -= 1
+                need_r_max -= 1
+            if c == '*':
+                need_r_min -= 1   # '*' as ')'
+                need_r_max += 1   # '*' as '('
 
-            if need_l < 0:
-                return False
+            if need_r_min < 0:
+                need_r_min = 0  # turn one '*' from ')' to '('
+            if need_r_max < 0:
+                return False    # turn all '*' into ')', still not enough
 
-        return True
-
-
+        return True if need_r_min == 0 else False
         
