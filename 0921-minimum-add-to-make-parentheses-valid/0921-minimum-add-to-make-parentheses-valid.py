@@ -1,15 +1,14 @@
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
-        res = left = 0
+        need_r = res = 0
 
-        for chr in s:
-            if chr == ')':
-                if left > 0:
-                    left -= 1
-                else:
+        for c in s:
+            if c == '(':
+                need_r += 1
+            if c == ')':
+                need_r -= 1
+                if need_r < 0:
                     res += 1
-            else:
-                left += 1
+                    need_r = 0
 
-        return res + left
-        
+        return res + need_r
