@@ -916,4 +916,8 @@
 | ------- |
 | [0141-linked-list-cycle](https://github.com/meizhuixu/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/meizhuixu/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+## K-D Tree
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/meizhuixu/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
