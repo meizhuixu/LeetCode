@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def mergeKLists(self, lists: list[ListNode | None]) -> ListNode | None:
-        # edge case: empty lists, empty list
+        # edge case: k = 0, empty list
         pq = []
         for i, node in enumerate(lists):
             if node:
@@ -13,7 +13,7 @@ class Solution:
 
         curr = dummy = ListNode()
         while pq:
-            _, idx, node = heapq.heappop(pq)
+            val, idx, node = heapq.heappop(pq)
             curr.next = node
             curr = curr.next
 
@@ -21,7 +21,5 @@ class Solution:
                 heapq.heappush(pq, (node.next.val, idx, node.next))
 
         return dummy.next
-
-
 
         
