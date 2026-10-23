@@ -1,19 +1,19 @@
 class ListNode:
-    def __init__(self, key=0, val=0, prev=None, nxt=None):
+    def __init__(self, key=0, val=0, prev=None, next=None):
         self.key = key
         self.val = val
         self.prev = prev
-        self.nxt = nxt
+        self.next = next
 
 
 class LRUCache:
 
     def __init__(self, capacity: int):
         self.cap = capacity
-        self.hashmap = {}
+        self.hashmap = defaultdict(int)
         self.head = ListNode()
         self.tail = ListNode()
-        self.head.nxt = self.tail
+        self.head.next = self.tail
         self.tail.prev = self.head
 
     def get(self, key: int) -> int:
@@ -36,23 +36,22 @@ class LRUCache:
             new = ListNode(key, value)
             self.hashmap[key] = new
             self.add(new)
-            
-            if len(self.hashmap) > self.cap:
-                remove_node = self.head.nxt
-                del self.hashmap[remove_node.key]
-                self.remove(remove_node)
 
-    def remove(self, node):
-        node.prev.nxt = node.nxt
-        node.nxt.prev = node.prev
-        node.prev = None
-        node.nxt = None
+            if len(self.hashmap) > self.cap:
+                drop = self.head.next
+                del self.hashmap[drop.key]
+                self.remove(drop)
 
     def add(self, node):
-        self.tail.prev.nxt = node
+        self.tail.prev.next = node
         node.prev = self.tail.prev
         self.tail.prev = node
-        node.nxt = self.tail
+        node.next = self.tail
+
+    def remove(self, node):
+        node.prev.next = node.next
+        node.next.prev = node.prev
+
         
 
 
