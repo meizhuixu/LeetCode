@@ -288,6 +288,7 @@
 | [0225-implement-stack-using-queues](https://github.com/meizhuixu/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/meizhuixu/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/meizhuixu/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -328,6 +329,7 @@
 | [0225-implement-stack-using-queues](https://github.com/meizhuixu/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/meizhuixu/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/meizhuixu/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
 | [0678-valid-parenthesis-string](https://github.com/meizhuixu/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/meizhuixu/LeetCode/tree/master/0735-asteroid-collision) |
@@ -350,6 +352,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/meizhuixu/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/meizhuixu/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
+| [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/meizhuixu/leetcode/tree/master/0355-design-twitter) |
 | [0432-all-oone-data-structure](https://github.com/meizhuixu/LeetCode/tree/master/0432-all-oone-data-structure) |
@@ -541,6 +544,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/meizhuixu/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/meizhuixu/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/meizhuixu/LeetCode/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0437-path-sum-iii](https://github.com/meizhuixu/LeetCode/tree/master/0437-path-sum-iii) |
 | [0510-inorder-successor-in-bst-ii](https://github.com/meizhuixu/LeetCode/tree/master/0510-inorder-successor-in-bst-ii) |
@@ -575,6 +579,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/meizhuixu/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/meizhuixu/LeetCode/tree/master/0332-reconstruct-itinerary) |
+| [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0417-pacific-atlantic-water-flow](https://github.com/meizhuixu/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/meizhuixu/LeetCode/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -920,4 +925,8 @@
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/LeetCode/tree/master/0973-k-closest-points-to-origin) |
+## Iterator
+|  |
+| ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
