@@ -22,7 +22,7 @@
 
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
-        self.stack = nestedList[::-1]
+        self.stack = list(reversed(nestedList))
     
     def next(self) -> int:
         return self.stack.pop().getInteger()
@@ -34,7 +34,7 @@ class NestedIterator:
                 return True
             else:
                 self.stack.pop()
-                self.stack.extend(top.getList()[::-1])
+                self.stack.extend(reversed(top.getList()))
                 return self.hasNext()
         return False
 
