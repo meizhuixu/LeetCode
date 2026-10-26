@@ -22,23 +22,25 @@
 
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
-        self.stack = list(reversed(nestedList))
+        self.idx = 0
+        self.vals = []
+
+        def dfs(items):
+            for i in items:
+                if i.isInteger():
+                    self.vals.append(i.getInteger())
+                else:
+                    dfs(i.getList())
+
+        dfs(nestedList)  
     
     def next(self) -> int:
-        return self.stack.pop().getInteger()
+        val = self.vals[self.idx]
+        self.idx += 1
+        return val
     
     def hasNext(self) -> bool:
-        if self.stack:
-            top = self.stack[-1]
-            if top.isInteger():
-                return True
-            else:
-                self.stack.pop()
-                self.stack.extend(reversed(top.getList()))
-                return self.hasNext()
-        return False
-
-
+        return self.idx < len(self.vals)
          
 
 # Your NestedIterator object will be instantiated and called as such:
