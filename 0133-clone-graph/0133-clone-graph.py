@@ -9,23 +9,26 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        if not node:
-            return None
+        # dfs
+        # dict = {old: new}
+        # O(n); O(n)
 
-        hashmap = {}  # old: new
-
+        # edge case: empty
+        self.hashmap = {}
         def dfs(node):
-            new = Node(node.val)
-            hashmap[node] = new
+            if not node:
+                return None
+            if node in self.hashmap:
+                return self.hashmap[node]
 
+            new = Node(node.val)
+            self.hashmap[node] = new
             for nei in node.neighbors:
-                if nei in hashmap:
-                    new.neighbors.append(hashmap[nei])
-                else:
-                    new.neighbors.append(dfs(nei))
+                new.neighbors.append(dfs(nei))
 
             return new
 
         return dfs(node)
-        
+
+
         
