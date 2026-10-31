@@ -28,6 +28,7 @@
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/meizhuixu/leetcode/tree/master/0355-design-twitter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/meizhuixu/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/meizhuixu/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/meizhuixu/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/meizhuixu/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -211,6 +212,7 @@
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0354-russian-doll-envelopes](https://github.com/meizhuixu/LeetCode/tree/master/0354-russian-doll-envelopes) |
 | [0370-range-addition](https://github.com/meizhuixu/LeetCode/tree/master/0370-range-addition) |
+| [0380-insert-delete-getrandom-o1](https://github.com/meizhuixu/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/meizhuixu/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/meizhuixu/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/meizhuixu/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -356,6 +358,7 @@
 | [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0348-design-tic-tac-toe](https://github.com/meizhuixu/LeetCode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/meizhuixu/leetcode/tree/master/0355-design-twitter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/meizhuixu/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/meizhuixu/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/meizhuixu/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
@@ -373,6 +376,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/meizhuixu/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/meizhuixu/LeetCode/tree/master/0202-happy-number) |
 | [0279-perfect-squares](https://github.com/meizhuixu/LeetCode/tree/master/0279-perfect-squares) |
+| [0380-insert-delete-getrandom-o1](https://github.com/meizhuixu/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0400-nth-digit](https://github.com/meizhuixu/LeetCode/tree/master/0400-nth-digit) |
 | [0486-predict-the-winner](https://github.com/meizhuixu/LeetCode/tree/master/0486-predict-the-winner) |
 | [0793-preimage-size-of-factorial-zeroes-function](https://github.com/meizhuixu/LeetCode/tree/master/0793-preimage-size-of-factorial-zeroes-function) |
@@ -933,4 +937,8 @@
 |  |
 | ------- |
 | [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/meizhuixu/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
