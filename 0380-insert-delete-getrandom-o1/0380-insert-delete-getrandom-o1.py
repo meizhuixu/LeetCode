@@ -1,32 +1,32 @@
 class RandomizedSet:
 
     def __init__(self):
+        # random: array
+        # set: {val: idx}
         self.vals = []
-        self.hashmap = {}
-        
-    def insert(self, val: int) -> bool:
-        if val in self.hashmap:
-            return False
+        self.val_to_idx = {}
 
-        self.hashmap[val] = len(self.vals)
+    def insert(self, val: int) -> bool:
+        if val in self.val_to_idx:
+            return False
+        self.val_to_idx[val] = len(self.vals)
         self.vals.append(val)
         return True
 
     def remove(self, val: int) -> bool:
-        if val not in self.hashmap:
+        if val not in self.val_to_idx:
             return False
 
-        idx = self.hashmap[val]
+        idx = self.val_to_idx[val]
         last = self.vals[-1]
 
         self.vals[idx] = last
-        self.vals.pop()
-        
-        self.hashmap[last] = idx  
-        del self.hashmap[val]  
-        # delete must be last, in case the last one to be removed
+        self.val_to_idx[last] = idx
 
+        self.vals.pop()
+        del self.val_to_idx[val]
         return True
+        
 
     def getRandom(self) -> int:
         return random.choice(self.vals)
