@@ -228,6 +228,7 @@
 | [0518-coin-change-ii](https://github.com/meizhuixu/LeetCode/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/meizhuixu/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/meizhuixu/leetcode/tree/master/0621-task-scheduler) |
+| [0654-maximum-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0654-maximum-binary-tree) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/meizhuixu/LeetCode/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0694-number-of-distinct-islands](https://github.com/meizhuixu/LeetCode/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/meizhuixu/LeetCode/tree/master/0695-max-area-of-island) |
@@ -337,6 +338,7 @@
 | [0234-palindrome-linked-list](https://github.com/meizhuixu/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
+| [0654-maximum-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0654-maximum-binary-tree) |
 | [0678-valid-parenthesis-string](https://github.com/meizhuixu/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/meizhuixu/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
@@ -395,6 +397,7 @@
 | [0042-trapping-rain-water](https://github.com/meizhuixu/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/meizhuixu/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
+| [0654-maximum-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0654-maximum-binary-tree) |
 | [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
 ## Sorting
@@ -509,6 +512,7 @@
 | [0169-majority-element](https://github.com/meizhuixu/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/meizhuixu/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/meizhuixu/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0654-maximum-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0654-maximum-binary-tree) |
 | [0973-k-closest-points-to-origin](https://github.com/meizhuixu/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Merge Sort
 |  |
@@ -564,6 +568,7 @@
 | [0510-inorder-successor-in-bst-ii](https://github.com/meizhuixu/LeetCode/tree/master/0510-inorder-successor-in-bst-ii) |
 | [0543-diameter-of-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/meizhuixu/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0654-maximum-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0654-maximum-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/meizhuixu/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/meizhuixu/LeetCode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -639,6 +644,7 @@
 | [0510-inorder-successor-in-bst-ii](https://github.com/meizhuixu/LeetCode/tree/master/0510-inorder-successor-in-bst-ii) |
 | [0543-diameter-of-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/meizhuixu/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0654-maximum-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0654-maximum-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/meizhuixu/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/meizhuixu/LeetCode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -950,4 +956,8 @@
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/meizhuixu/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+## Cartesian Tree
+|  |
+| ------- |
+| [0654-maximum-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0654-maximum-binary-tree) |
 <!---LeetCode Topics End-->
