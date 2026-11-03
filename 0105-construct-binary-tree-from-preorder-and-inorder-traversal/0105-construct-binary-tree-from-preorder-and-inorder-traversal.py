@@ -5,23 +5,31 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        hashmap = {num: i for i, num in enumerate(inorder)}
-        self.count = 0
+    def buildTree(self, preorder: list[int], inorder: list[int]) -> TreeNode | None:
+        # preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
 
-        def dfs(l, r):
+        # dfs(l, r) inorder
+        # preorder is the order of root, recursion one by one
+        # time O(n)
+        # space O(h)
+
+        self.idx = 0 # idx of preorder, represent the root of this subtree
+        self.val_to_idx = {val: idx for idx, val in enumerate(inorder)}
+
+        def dfs(l, r):  # boundary in inorder array
             if l > r:
                 return
-                
-            val = preorder[self.count]
-            node = TreeNode(val)
-            self.count += 1
+            node_val = preorder[self.idx]
+            self.idx += 1
+            node = TreeNode(node_val)
+            node_inorder_idx = self.val_to_idx[node_val]
 
-            inorder_idx = hashmap[val]
-            node.left = dfs(l, inorder_idx - 1)
-            node.right = dfs(inorder_idx + 1, r)
+            node.left = dfs(l, node_inorder_idx - 1)
+            node.right = dfs(node_inorder_idx + 1, r)
 
             return node
 
         return dfs(0, len(preorder) - 1)
+
+
         
