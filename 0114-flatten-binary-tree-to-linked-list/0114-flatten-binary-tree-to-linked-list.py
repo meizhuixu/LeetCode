@@ -25,14 +25,13 @@ class Solution:
         curr = root
         while curr:
             if curr.left:
-                if curr.right:
-                    right_subtree = curr.right
-                    # find most right of left subtree
-                    most_right = curr.left
-                    while most_right.right:
-                        most_right = most_right.right
-                    # move right subtree to most right
-                    most_right.right = right_subtree
+                right_subtree = curr.right
+                # find most right of left subtree
+                most_right = curr.left
+                while most_right.right:
+                    most_right = most_right.right
+                # move right subtree to most right
+                most_right.right = right_subtree
 
                 # move left subtree to right
                 curr.right = curr.left
