@@ -7,24 +7,38 @@
 class Solution:
     def flatten(self, root: TreeNode | None) -> None:
         """
-        Do not return anything, modify root in-place instead.
+          1
+           \   
+            2     
+             \
+              3
+
         """
-        if not root:
-            return
+        # iteration : space O(1)
+        # time: O(n)
 
-        vals = []
-        def dfs(node):
-            if not node:
-                return
+        # step1 : move right subtree to the most right node of left subtree
+        # step2: move left subtree to right subtree
+        # step3: move to next node
 
-            vals.append(node.val)
-            dfs(node.left)
-            dfs(node.right)
-
-        dfs(root)
-
+        # edge case: empty
         curr = root
-        for i in range(1, len(vals)):
-            curr.left = None
-            curr.right = TreeNode(vals[i])
+        while curr:
+            if curr.left:
+                if curr.right:
+                    right_subtree = curr.right
+                    # find most right of left subtree
+                    most_right = curr.left
+                    while most_right.right:
+                        most_right = most_right.right
+                    # move right subtree to most right
+                    most_right.right = right_subtree
+
+                # move left subtree to right
+                curr.right = curr.left
+                curr.left = None
+                
             curr = curr.right
+
+
+        
