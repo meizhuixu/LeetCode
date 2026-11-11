@@ -41,6 +41,7 @@
 | [0763-partition-labels](https://github.com/meizhuixu/LeetCode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/meizhuixu/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/meizhuixu/LeetCode/tree/master/0846-hand-of-straights) |
+| [0895-maximum-frequency-stack](https://github.com/meizhuixu/LeetCode/tree/master/0895-maximum-frequency-stack) |
 | [0904-fruit-into-baskets](https://github.com/meizhuixu/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
 | [1654-minimum-jumps-to-reach-home](https://github.com/meizhuixu/LeetCode/tree/master/1654-minimum-jumps-to-reach-home) |
@@ -346,6 +347,7 @@
 | [0735-asteroid-collision](https://github.com/meizhuixu/LeetCode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/meizhuixu/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/meizhuixu/leetcode/tree/master/0853-car-fleet) |
+| [0895-maximum-frequency-stack](https://github.com/meizhuixu/LeetCode/tree/master/0895-maximum-frequency-stack) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/meizhuixu/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/meizhuixu/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/meizhuixu/LeetCode/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
@@ -370,6 +372,7 @@
 | [0432-all-oone-data-structure](https://github.com/meizhuixu/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0460-lfu-cache](https://github.com/meizhuixu/LeetCode/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/meizhuixu/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0895-maximum-frequency-stack](https://github.com/meizhuixu/LeetCode/tree/master/0895-maximum-frequency-stack) |
 | [0981-time-based-key-value-store](https://github.com/meizhuixu/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Math
 |  |
@@ -873,6 +876,7 @@
 |  |
 | ------- |
 | [0456-132-pattern](https://github.com/meizhuixu/LeetCode/tree/master/0456-132-pattern) |
+| [0895-maximum-frequency-stack](https://github.com/meizhuixu/LeetCode/tree/master/0895-maximum-frequency-stack) |
 ## Enumeration
 |  |
 | ------- |
