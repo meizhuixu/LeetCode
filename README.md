@@ -577,6 +577,7 @@
 | [0226-invert-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/meizhuixu/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/meizhuixu/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0341-flatten-nested-list-iterator](https://github.com/meizhuixu/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/meizhuixu/LeetCode/tree/master/0429-n-ary-tree-level-order-traversal) |
@@ -614,6 +615,7 @@
 | [0226-invert-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/meizhuixu/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/meizhuixu/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/meizhuixu/leetcode/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/meizhuixu/LeetCode/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -665,6 +667,7 @@
 | [0226-invert-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/meizhuixu/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/meizhuixu/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/meizhuixu/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0437-path-sum-iii](https://github.com/meizhuixu/LeetCode/tree/master/0437-path-sum-iii) |
 | [0510-inorder-successor-in-bst-ii](https://github.com/meizhuixu/LeetCode/tree/master/0510-inorder-successor-in-bst-ii) |
@@ -989,4 +992,12 @@
 |  |
 | ------- |
 | [0654-maximum-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0654-maximum-binary-tree) |
+## Binary Lifting
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Lowest Common Ancestor
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/meizhuixu/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 <!---LeetCode Topics End-->
