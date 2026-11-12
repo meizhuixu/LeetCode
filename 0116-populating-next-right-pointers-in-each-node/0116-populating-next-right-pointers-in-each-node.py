@@ -10,25 +10,17 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
-        # empty root
-        if not root or not root.left:
+        if not root:
             return root
 
-        most_left = root
-        while most_left.left:
-            curr = most_left
+        if root.left:
+            root.left.next = root.right
+            if root.next:
+                root.right.next = root.next.left
 
-            while curr:  # 3
-                curr.left.next = curr.right   # 4->5   6->7
-
-                if curr.next:    # 3
-                    curr.right.next = curr.next.left  # 5->6
-                curr = curr.next  # 
-
-            most_left = most_left.left
-
+        self.connect(root.left)
+        self.connect(root.right)
         return root
 
         
-
         
