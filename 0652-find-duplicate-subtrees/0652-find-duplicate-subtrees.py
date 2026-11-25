@@ -6,30 +6,23 @@
 #         self.right = right
 class Solution:
     def findDuplicateSubtrees(self, root: TreeNode | None) -> list[TreeNode | None]:
-        # postorder
-        # dict = {[vals]: [treenodes]}
 
-        self.hashmap = defaultdict(list)
-        self.res = []
-
-        def postorder(node):
+        def serialize(node):
             if not node:
-                return [None]
+                return '#'
 
-            vals = []
-            vals.extend(postorder(node.left))
-            vals.extend(postorder(node.right))
-            vals.append(node.val)
-
-            if len(self.hashmap[tuple(vals)]) == 1:
+            subtree = f'{node.val},{serialize(node.left)},{serialize(node.right)}'
+            self.hashmap[subtree] += 1
+            if self.hashmap[subtree] == 2:
                 self.res.append(node)
+            
+            return subtree
 
-            self.hashmap[tuple(vals)].append(node)
-            return vals
+        self.hashmap = defaultdict(int)
+        self.res = []
+        serialize(root)
 
-        postorder(root)
         return self.res
 
 
 
-        
