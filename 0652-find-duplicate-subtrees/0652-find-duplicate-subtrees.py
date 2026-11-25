@@ -7,22 +7,27 @@
 class Solution:
     def findDuplicateSubtrees(self, root: TreeNode | None) -> list[TreeNode | None]:
 
-        def serialize(node):
+        def traverse(node):
             if not node:
-                return '#'
+                return 0
 
-            subtree = f'{node.val},{serialize(node.left)},{serialize(node.right)}'
-            self.hashmap[subtree] += 1
-            if self.hashmap[subtree] == 2:
-                self.res.append(node)
+            subtree = (node.val, traverse(node.left), traverse(node.right))
+            if subtree not in tree_to_id:
+                tree_to_id[subtree] = len(tree_to_id) + 1
+            sub_id = tree_to_id[subtree]
+
+            count[sub_id] += 1
+            if count[sub_id] == 2:
+                res.append(node)
             
-            return subtree
+            return sub_id
 
-        self.hashmap = defaultdict(int)
-        self.res = []
-        serialize(root)
+        count = defaultdict(int)
+        tree_to_id = {}
+        res = []
+        traverse(root)
 
-        return self.res
+        return res
 
 
 
