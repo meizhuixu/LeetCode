@@ -8,19 +8,17 @@ class Node:
 
 class Solution:
     def postorder(self, root: 'Node') -> List[int]:
-        def traversal(node):
-            if not node:
-                return
-
-            for c in node.children:
-                traversal(c)
-
-            res.append(node.val)
-            return
+        if not root:
+            return None
 
         res = []
-        traversal(root)
-        return res
-        
+        stack = [root]
+        while stack:
+            curr = stack.pop()
+            res.append(curr.val)
 
-        
+            for c in curr.children:
+                stack.append(c)
+
+        return res[::-1]
+
