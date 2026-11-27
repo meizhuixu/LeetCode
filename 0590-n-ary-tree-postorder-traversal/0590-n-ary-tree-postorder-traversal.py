@@ -9,7 +9,7 @@ class Node:
 class Solution:
     def postorder(self, root: 'Node') -> List[int]:
         if not root:
-            return None
+            return []
 
         res = []
         stack = [(root, False)]
