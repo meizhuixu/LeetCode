@@ -12,13 +12,16 @@ class Solution:
             return None
 
         res = []
-        stack = [root]
+        stack = [(root, False)]
         while stack:
-            curr = stack.pop()
-            res.append(curr.val)
+            node, visited = stack.pop()
 
-            for c in curr.children:
-                stack.append(c)
+            if not visited and node.children:
+                stack.append((node, True))
+                for c in node.children[::-1]:
+                    stack.append((c, False))
+            else:
+                res.append(node.val)
 
-        return res[::-1]
+        return res
 
